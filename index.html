@@ -1,206 +1,152 @@
 <!doctype html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+<meta charset="UTF-8">
+<title>ArchiTriad</title>
+<LINK rel=STYLESHEET href="pages_fond_couleur.css" type="text/css">
+<LINK rel=STYLESHEET href="fCssFonts.css" type="text/css">
+<LINK rel=STYLESHEET href="cssIndex.css" type="text/css">
+<script type="text/javascript">
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
 
-    <title>Hello, world!</title>
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
 </head>
 
 <body>
-
-
-
-
-
-    <div class="container bigCont">
-
-
-        <div class="row">
-            <div class="col-2 izquierda_full">
-                <!-- seccion izquierda -->
-
-                <div id="zLeft">
-                    <div id="logo_left">
-                        <img src="img/logo.gif" width="85" height="515" alt="" /></div>
-                    <div id="btcontact" onClick="MM_goToURL('parent','pContact.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btcontact','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btcontact','','color','#FFFFFF','DIV')">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
-                    </div>
-                    <div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceMortagne','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceMortagne','','color','#FFFFFF','DIV')">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Mortagne
-                    </div>
-                    <div id="btAgenceArgentan" onClick="MM_goToURL('parent','pAgenceArgentan.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceArgentan','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceArgentan','','color','#FFFFFF','DIV')">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Argentan
-                    </div>
-                </div>
-
-
-            </div>
-
-
-            <div class="col-10 derecha_full">
-                <div class="row">
-                    <div class="col-7 triang">
-                        <div class="left"></div>
-                        <h4 class="title mt-3 textTitle font-weight-bold">ARCHI-Triad, CABINET D'ARCHITECTURE </h4>
-                        <div class="textLanding  ">
-
-                            <div class="mt-3">ARCHI-Triad, atelier d'architecture Normand est installé à Mortagne-au-Perche et à Argentan depuis plus de quarante ans. Cette installation lui a permis de développer des réponses contemporaines à tous les enjeux et à une multitude
-                                de programmes différents. Elle lui a donnée en outre une parfaite connaissance des terrains et des techniques de construction traditionnelles.</div>
-                            <div class="mt-3"><span class="textGrey font-weight-bold"> Une équipe:</span> 3 Architectes - 3 Dessinateurs/Modelisateurs dont un jeune architecte - 2 Secrétaires techniques - 1 assistante de gestion - 1 réseau de partenaires aux compétences
-                                reconnues. </div>
-
-
-                            <div class="mt-3"> <span class="textGrey font-weight-bold">Deux ateliers:</span> Mortagne-au-Perche (siège social de la structure) - Argentan - une présence constante à Caen </div>
-
-                            <div class="mt-3">
-                                <span class="textGrey font-weight-bold">Des méthodes</span> : L'Architecture nous motive sous tous ses aspects : la connaissance du contexte (maître d'ouvrage, programme, site,contrainte,...) - la concertation : création
-                                d'une culture commune de projet, capacité d'écoute, de synthèse, de reformulation - la créativité - la rigueur de gestion des dossiers - les approches environnementales </div>
-
-                            <div class="mt-3 mb-1"> <span class="textGrey font-weight-bold">Des secteurs variéss: </span> Construction neuve et réhabilitation - Logements - Bâtiments culturels et sociaux - Bureaux - Bâtiment d'activité - Amménagement urbain - Logements collectifs
-                                - Lotissement</div>
-                            <span class="textGrey rens font-weight-bold"> Pour tout renseignement, contact au 02.33.85.26.30 ou via formulaire en ligne</span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-5  mw-100 mh-100  texty ">
-
-                        <!--columna circulos -->
-                        <div id="traitVertGris">
-                        </div>
-                        <!-- <img src="img/cirTop.png" width="70px" /> -->
-                        <div id="cercleHaut" onClick="MM_goToURL('parent','pArchitecture.html');return document.MM_returnValue" onMouseOver="MM_changeProp('cercleHaut','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleHaut','','background','#e3e9ec','DIV')">
-                            <div class="centrado txtArch font-weight-bold">ARCHITECTURE</div>
-                        </div>
-
-                        <div id="cercleCentre" onMouseOver="MM_changeProp('cercleCentre','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')">
-                            <div class="centrado txtArch_2 font-weight-bold">AMENAGEMENT</div>
-                        </div>
-                        <div id="cercleBas" onMouseOver="MM_changeProp('cercleBas','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')">
-                            <div class="centrado txtArch_3 font-weight-bold">ARCHI-Triad</div>
-                        </div>
-
-
-
-                    </div>
-
-
-
-
-
-                </div>
-
-                <hr>
-
-
-                <div class="row footy d-flex justify-content-around ">
-                    <!--  footer -->
-                    <!-- <div class="bottom ">
-                        <div class="d-flex text-black footy ">
-                            <div class=" ">ARCHI-Triad </div>
-                            <div class=" "> CABINET D'ARCHITECTURE</div>
-                            <div class=" "> ARGENTAN</div>
-                            <div class=" "> MORTAGNE-AU-PERCHE</div>
-                        </div>
-                    </div> -->
-
-
-                    <div class=" bottom font-weight-bold ">
-                        ARCHI-Triad •CABINET D'ARCHITECTURE • ARGENTAN • MORTAGNE-AU-PERCHE
-                    </div>
-
-
-                </div>
-                <!-- end footer -->
-
-            </div>
-
-        </div>
-
-
-
+	<div id=fond>
+		<div id="zLeft">
+		<div id="logo_left">
+		  <img src="images/Logo-ss_nom-V.gif" width="85" height="515" alt=""/></div>
+		<div id="btcontact" onClick="MM_goToURL('parent','pContact.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btcontact','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btcontact','','color','#FFFFFF','DIV')">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
+			</div>
+		<div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceMortagne','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceMortagne','','color','#FFFFFF','DIV')">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Mortagne
+	</div>
+		<div id="btAgenceArgentan" onClick="MM_goToURL('parent','pAgenceArgentan.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceArgentan','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceArgentan','','color','#FFFFFF','DIV')">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Argentan
     </div>
+		</div>
+		
+		<div id="zCenter">
+		<div id="triangle">
+			</div>
+			
+			
 
-    <!-- Optional JavaScript -->
+		</div>
+		<div id="zRight">
+	  	<div id=boxTextePresArchi>
+	  		<div class="left"></div>
+		  <div id="texte_p_a">
+			<span style='font-size: 25px;color: #adbcc4;font-family: Helvetica Neue LT Std'><br>
+			ARCHI-Triad,&nbsp;CABINET&nbsp;D'ARCHITECTURE<br></span>
+				<br><br>
+ARCHI-Triad, atelier d'architecture Normand
+est installé à Mortagne-au-Perche et à Argentan depuis plus de quarante ans. Cette installation lui a permis de développer des  réponses contemporaines
+ à tous les enjeux et à une multitude de programmes différents. Elle lui a donnée en 
+outre une parfaite connaissance des terrains et des techniques de construction traditionnelles.<br><br>
+<span style='font-family: Helvetica Neue LT Std;color: #adbcc4;font-size: 14px'>Une&nbsp;équipe&nbsp;:</span>
+&nbsp;3 Architectes -
+3 Dessinateurs/Modelisateurs dont un jeune 
+architecte - 2 Secrétaires techniques - 1 assistante de gestion - 1 réseau de 
+partenaires aux compétences reconnues.<br><br>
+<span style='font-family: Helvetica Neue LT Std;color: #adbcc4;font-size: 14px'>Deux&nbsp;ateliers&nbsp;:</span>&nbsp;Mortagne-au-Perche (siège social de la structure) - Argentan - 
+une présence constante à Caen <br><br>
+<span style='font-family: Helvetica Neue LT Std;color: #adbcc4;font-size: 14px'>Des&nbsp;méthodes&nbsp;:</span>
+L'Architecture nous motive sous tous ses aspects : 
+la connaissance du contexte (maître d'ouvrage, programme, site,contrainte,...) -
+la concertation : création d'une culture commune de projet, capacité d'écoute, de 
+synthèse, de reformulation - la créativité - la rigueur de gestion des dossiers -
+les approches environnementales<br><br>
 
-    <script type="text/javascript">
-        function MM_changeProp(objId, x, theProp, theValue) { //v9.0
-            var obj = null;
-            with(document) {
-                if (getElementById)
-                    obj = getElementById(objId);
-            }
-            if (obj) {
-                if (theValue == true || theValue == false)
-                    eval("obj.style." + theProp + "=" + theValue);
-                else eval("obj.style." + theProp + "='" + theValue + "'");
-            }
-        }
-
-        function MM_preloadImages() { //v3.0
-            var d = document;
-            if (d.images) {
-                if (!d.MM_p) d.MM_p = new Array();
-                var i, j = d.MM_p.length,
-                    a = MM_preloadImages.arguments;
-                for (i = 0; i < a.length; i++)
-                    if (a[i].indexOf("#") != 0) {
-                        d.MM_p[j] = new Image;
-                        d.MM_p[j++].src = a[i];
-                    }
-            }
-        }
-
-        function MM_swapImgRestore() { //v3.0
-            var i, x, a = document.MM_sr;
-            for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
-        }
-
-        function MM_findObj(n, d) { //v4.01
-            var p, i, x;
-            if (!d) d = document;
-            if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
-                d = parent.frames[n.substring(p + 1)].document;
-                n = n.substring(0, p);
-            }
-            if (!(x = d[n]) && d.all) x = d.all[n];
-            for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
-            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
-            if (!x && d.getElementById) x = d.getElementById(n);
-            return x;
-        }
-
-        function MM_swapImage() { //v3.0
-            var i, j = 0,
-                x, a = MM_swapImage.arguments;
-            document.MM_sr = new Array;
-            for (i = 0; i < (a.length - 2); i += 3)
-                if ((x = MM_findObj(a[i])) != null) {
-                    document.MM_sr[j++] = x;
-                    if (!x.oSrc) x.oSrc = x.src;
-                    x.src = a[i + 2];
-                }
-        }
-
-        function MM_goToURL() { //v3.0
-            var i, args = MM_goToURL.arguments;
-            document.MM_returnValue = false;
-            for (i = 0; i < (args.length - 1); i += 2) eval(args[i] + ".location='" + args[i + 1] + "'");
-        }
-    </script>
+<span style='font-family: Helvetica Neue LT Std;color: #adbcc4;font-size: 14px'>Des&nbsp;secteurs&nbsp;variés&nbsp;:</span>
+&nbsp;Construction neuve et réhabilitation - Logements - Bâtiments 
+culturels et sociaux - Bureaux - Bâtiment d'activité - Amménagement urbain - Logements collectifs - Lotissement<br><br><br>
+<span style='font-family: Helvetica Neue LT Std;color: #adbcc4;font-size: 15px'>
+&nbsp;&nbsp;&nbsp;Pour&nbsp;tout&nbsp;renseignement,&nbsp;contact&nbsp;au&nbsp;02.33.85.26.30&nbsp;ou&nbsp;via&nbsp;formulaire&nbsp;en&nbsp;ligne</span>
 
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T " crossorigin="anonymous "></script>
+
+				
+			</div>
+			</div>
+	
+		<div id="btArchitecture" onClick="MM_goToURL('parent','pArchitecture.html');return document.MM_returnValue"
+		onMouseOver="MM_changeProp('cercleHaut','','background','#df5225','DIV')"
+		onMouseOut="MM_changeProp('cercleHaut','','background','#e3e9ec','DIV')">
+		  <img src="images/imArchitectureOrange.gif" width="279" height="18" alt=""/> 
+		  </div>
+		<div id="btamenagements"
+	    onMouseOver="MM_changeProp('cercleCentre','','background','#df5225','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')">
+		  <img src="images/imAmenagementOrange.gif" width="279" height="18" alt=""/> 
+		  </div>
+			
+		<div id="btarchitriad" 
+		onMouseOver="MM_changeProp('cercleBas','','background','#df5225','DIV')"
+		onMouseOut="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')">
+		  <img src="images/imArchiTriadOrange.gif" width="279" height="18" alt=""/>
+			</div>
+		<div id="texte_bas">
+		<div id="imBasArchitriad">
+			<img src="images/imArchitriadNoir.gif" width="296" height="20" alt=""/> </div>
+		<div id="imBasCabinetArchitecte">
+		  <img src="images/imCabinetArchitecteNoir.gif" width="296" height="20" alt=""/> </div>
+		<div id="imBasArgentan">
+		  <img src="images/imArgentanNoir.gif" width="296" height="20" alt=""/> </div>
+		<div id="imBasMortagne">
+		  <img src="images/imMortagneNoir.gif" width="296" height="20" alt=""/> </div>
+		  </div>
+		<div id="traitVertGris">
+		  </div>
+		<div id="traitNoirBas">
+		  </div>
+		<div id="cercleHaut" onClick="MM_goToURL('parent','pArchitecture.html');return document.MM_returnValue" 
+			onMouseOver="MM_changeProp('cercleHaut','','background','#df5225','DIV')"
+			onMouseOut="MM_changeProp('cercleHaut','','background','#e3e9ec','DIV')">
+			</div>
+		<div id="cercleCentre"			        
+		onMouseOver="MM_changeProp('cercleCentre','','background','#df5225','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')">
+			</div>
+		<div id="cercleBas"
+			onMouseOver="MM_changeProp('cercleBas','','background','#df5225','DIV')"
+			onMouseOut="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')">
+		  </div>
+	  </div>
+	</div>
+
 </body>
-
 </html>
