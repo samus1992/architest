@@ -11,9 +11,137 @@ body{
 
 
 
+/*ccindex*/
+
+#cercleHaut{
+	position: absolute;
+	top:105px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	cursor: pointer;
+	
+}
+
+#cercleCentre{
+	position: absolute;
+	top:260px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	cursor: pointer;
+	
+
+}
+
+#cercleBas{
+	position: absolute;
+	top:415px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	cursor: pointer;
+	
+}
+
+
+#fond{
+	position: relative;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:1100px;
+	min-height: 650px;
+	width: 100%;
+	height: 650px;
+}
+
+#fond_blanc{
+	position: relative;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:1100px;
+	min-height: 650px;
+	
+	width: 100%;
+height: 650px;
+}
+
+#zLeft{
+	background-color: black;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	
+	height: 100%;
+	width: 130px;
+	
+}
+#zRight{
+	position: absolute;
+	left: 130px;
+	
+	height: 100%;
+	width: 970px;
+	z-index: 1;
+}
 
 
 
+
+/* end ccindex*/
+
+
+
+
+/*fonts*/
+
+
+
+@font-face {
+	font-family: 'Designio';
+	src: url('fonts/DesignioBold.eot');
+	src: url('fonts/DesignioBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/DesignioBold.woff') format('woff'),
+		url('fonts/DesignioBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue LT Std';
+	src: url('fonts/HelveticaNeueLTStd-BdCn.eot');
+	src: url('fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
+		url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
+		url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('fonts/Helvetica.eot');
+	src: url('fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Helvetica.woff') format('woff'),
+		url('fonts/Helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/*end fonts*/
 
 #zLeft_blanc{
 	position: absolute;
@@ -153,7 +281,7 @@ body{
 
 #texte_p_a{
 
-	height:560px;
+	height: 610px;
 	width:510px;
 	text-align: justify;
 	font-family: Helvetica;
@@ -277,3 +405,5 @@ width: 120px;
 	top:0px;
 	left:720px;
 }
+
+

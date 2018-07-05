@@ -5,7 +5,7 @@
 	position: absolute;
 	top:105px;
 	right:0px;
-	background:#ffffff;
+	background:#51646e;
   	border-radius:50%;
   	width:70px;
   	height:140px;
@@ -124,16 +124,6 @@ height: 650px;
 
 }
 
-#titreHabitationGris{
-	position: relative;
-	top:0px;
-	width: 510px;
-	color : #868789;
-	left:10px;
-	cursor: pointer;
-
-}
-
 #titreEtablissements{
 	position: relative;
 	width: 510px;
@@ -174,8 +164,6 @@ cursor: pointer;}
 	height:450px;
 color:white;
 	font-size:0.9em;
-	overflow: hidden;
-	overflow-y: scroll;
 
 }
 

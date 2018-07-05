@@ -7,6 +7,7 @@ body{
 
 .container{
 	margin-top: 5%;
+	height: 10px;
 }
 
 
@@ -59,12 +60,12 @@ body{
 	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
-	min-width:1100px;
+	min-width: 1100px;
 	min-height: 650px;
-	
 	width: 100%;
-height: 650px;
+	height: 649px;
 }
+
 #fond_blanc{
 	position: relative;
 	background-color: white;
@@ -78,21 +79,19 @@ height: 650px;
 }
 
 #zLeft{
+	background-color: black;
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	
-	
 	height: 100%;
-	width: 130px;
+	width: 124px;
 	
 }
 #zRight{
 	position: absolute;
-	left: 130px;
-	
+	left: 126px;
 	height: 100%;
-	width: 970px;
+	width: 980px;
 	z-index: 1;
 }
 
@@ -155,86 +154,92 @@ height: 650px;
 
 #logo_left{
 	position: absolute;
-	top:105px;
-	left:25px;
-	cursor:pointer;
+	top: 100px;
+	left: 25px;
+	cursor: pointer;
 
 	
 }
 
 #btcontact{
-	position:absolute;
-	top:80px;
-	left:23px;
-	cursor:pointer;
-	font-size:12px;
+	position: absolute;
+	top: 74px;
+	left: 20px;
+	cursor: pointer;
+	font-size: 12px;
 	color: white;
 	z-index: 3;
 	/* Rotation du div */
-	transform:rotate(-79deg); 
-	-ms-transform:rotate(-79deg); /* Internet Explorer */
-	-moz-transform:rotate(-79deg); /* Firefox */
-	-webkit-transform:rotate(-79deg); /* Safari et Chrome */ 
-	-o-transform:rotate(-79deg); /* Opera */
+	transform: rotate(-79deg);
+	-ms-transform: rotate(-79deg); /* Internet Explorer */
+	-moz-transform: rotate(-79deg); /* Firefox */
+	-webkit-transform: rotate(-79deg); /* Safari et Chrome */
+	-o-transform: rotate(-79deg); /* Opera */
 }
 
 #btAgenceMortagne{
-	position:absolute;
-	top:55px;
-	left:24px;
-	cursor:pointer;
-	font-size:12px;
+	position: absolute;
+	top: 46px;
+	left: 19px;
+	cursor: pointer;
+	font-size: 12px;
 	color: white;
 	z-index: 3;
 	/* Rotation du div */
-	transform:rotate(-79deg); 
-	-ms-transform:rotate(-79deg); /* Internet Explorer */
-	-moz-transform:rotate(-79deg); /* Firefox */
-	-webkit-transform:rotate(-79deg); /* Safari et Chrome */ 
-	-o-transform:rotate(-79deg); /* Opera */
+	transform: rotate(-79deg);
+	-ms-transform: rotate(-79deg); /* Internet Explorer */
+	-moz-transform: rotate(-79deg); /* Firefox */
+	-webkit-transform: rotate(-79deg); /* Safari et Chrome */
+	-o-transform: rotate(-79deg); /* Opera */
 }
 
 #btAgenceArgentan{
-	position:absolute;
-	top:57px;
-	left:46px;
-	cursor:pointer;
-	font-size:12px;
+	position: absolute;
+	top: 48px;
+	left: 41px;
+	cursor: pointer;
+	font-size: 12px;
 	color: white;
 	z-index: 3;
 	/* Rotation du div */
-	transform:rotate(-79deg); 
-	-ms-transform:rotate(-79deg); /* Internet Explorer */
-	-moz-transform:rotate(-79deg); /* Firefox */
-	-webkit-transform:rotate(-79deg); /* Safari et Chrome */ 
-	-o-transform:rotate(-79deg); /* Opera */
+	transform: rotate(-79deg);
+	-ms-transform: rotate(-79deg); /* Internet Explorer */
+	-moz-transform: rotate(-79deg); /* Firefox */
+	-webkit-transform: rotate(-79deg); /* Safari et Chrome */
+	-o-transform: rotate(-79deg); /* Opera */
 }
 
 #zCenter{
 	position: absolute;
+	background-image: url(images/test_bg.svg);
+	background-size: cover;
 	top: 0px;
-	left: 130px;
+	left: 123px;
 	height: 100%;
-	width: 100px;
-	z-index: 2;
-	cursor: default;}
+	width: 124px;
+	z-index: 1;
+	cursor: default;
+}
 
 #triangle{
 	border-color: #000000 transparent transparent #000000;
-    border-style: solid;
-    border-width: 0px 120px 650px;
-    cursor: default;
-    height: 0;
-    position: absolute;
-    margin-left: 0px;
-    margin-top: 0px;
-    width: 0;
+	border-style: solid;
+	border-width: 0px 120px 650px;
+	height: 632px;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: -64px;
+	width: 27px;
+	margin-right: 0px;
+	top: 64px;
+	z-index: 2;
+	left: -8px;
 	
 }
 
 #traitVertGris{
-	position:absolute;
-	Top:0px;
+	position: absolute;
+	Top: 0px;
 	left: 530px;
 	height: 100%;
 	width: 15px;
@@ -246,9 +251,9 @@ height: 650px;
 
 #traitNoirBas{
 	position: absolute;
-	top:560px;
-	left:0px;
-	height:2px;
+	top: 584px;
+	left: 3px;
+	height: 2px;
 	width: 920px;
 	background-color: black;
 	cursor: default;
@@ -279,13 +284,13 @@ height: 650px;
 
 
 #texte_p_a{
-
-	height:560px;
-	width:510px;
+	height: 626px;
+	width: 513px;
 	text-align: justify;
 	font-family: Helvetica;
 	font-size: 13px;
 	cursor: default;
+	z-index: -1;
 
 	
 
@@ -359,24 +364,22 @@ height: 650px;
 }
 
 .left{
-width: 120px;
-  height: 650px;
- 
-  -webkit-shape-outside: polygon(0 0, 0 100%, 100% 0);
-  shape-outside: polygon(0 0, 0 100%, 100% 0%);
-  float: left;
-  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0%);
+	width: 122px;
+	height: 650px;
+	-webkit-shape-outside: polygon(0 0, 0 100%, 100% 0);
+	shape-outside: polygon(0 0, 0 100%, 100% 0%);
+	float: left;
+	-webkit-clip-path: polygon(0 0, 0% 100%, 100% 0%);
 	clip-path: polygon(0 0, 0 100%, 100% 0%);
 }
 
 
 #texte_bas{
 	position: absolute;
-	top:590px;
-	left:-37px;
+	top: 605px;
+	left: -32px;
 	height: 90px;
-	width:970px;
-	
+	width: 970px;
 	z-index: 2;
 	cursor: default;
 }
@@ -389,8 +392,8 @@ width: 120px;
 
 #imBasCabinetArchitecte{
 	position: absolute;
-	top:0px;
-	left: 250px;
+	top: 1px;
+	left: 255px;
 }
 
 #imBasArgentan{
@@ -404,197 +407,3 @@ width: 120px;
 	top:0px;
 	left:720px;
 }
-
-
-
-/* habitacion*/
-
-@charset "UTF-8";
-/* CSS Document */
-
-#cercleHaut{
-	position: absolute;
-	top:105px;
-	right:0px;
-	background:#ffffff;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	
-}
-
-#cercleCentre{
-	position: absolute;
-	top:260px;
-	right:0px;
-	background:#51646e;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	
-
-}
-
-#cercleBas{
-	position: absolute;
-	top:415px;
-	right:0px;
-	background:#51646e;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	
-}
-
-#fond{
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	min-width:1100px;
-	min-height: 650px;
-	
-	width: 100%;
-height: 650px;
-}
-
-#zLeft{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	height: 100%;
-	width: 130px;
-	
-}
-#zRight{
-	position: absolute;
-	top:0px;
-	left: 130px;
-	height: 100%;
-	width: 970px;
-	z-index: 1;
-}
-
-#cercleContact{
-	position: absolute;
-	top:105px;
-	left:39px;
-	width: 15px;
-    height: 15px;
-    border-radius: 20px;
-    background: white;
-}
-
-#cercleMortagne{
-	position: absolute;
-	top:105px;
-	left:60px;
-	width: 15px;
-    height: 15px;
-    border-radius: 20px;
-    background: white;
-}
-
-#cercleArgentan{
-	position: absolute;
-	top:105px;
-	left:81px;
-	width: 15px;
-    height: 15px;
-    border-radius: 20px;
-    background: white;
-}
-
-#traitVertGrisFonce{
-	position:absolute;
-	Top:0px;
-	left: 530px;
-	height: 100%;
-	width: 15px;
-	background-color: #51646e;
-	z-index: 0
-		
-}
-
-#logoLeftCarre{
-	position: absolute;
-	top:520px;
-	
-	left:27px;
-	cursor: pointer;
-	
-}
-#titreHabitation{
-	position: relative;
-	top:0px;
-	width: 510px;
-	color : #e05015;
-	left:10px;
-
-}
-
-#titreHabitationGris{
-	position: relative;
-	top:0px;
-	width: 510px;
-	color : #868789;
-	left:10px;
-	cursor: pointer;
-
-}
-
-#titreEtablissements{
-	position: relative;
-	width: 510px;
-	color : #868789;
-	left:10px;
-	cursor: pointer;
-
-}
-
-#titreIndustries{
-	position: relative;
-	width: 510px;
-	color : #868789;
-left:10px;
-cursor: pointer;}
-
-#titrePatrimoine{
-	position: relative;
-	width: 510px;
-	color : #868789;
-		left:10px;
-	cursor: pointer;
-}
-
-#titreDivers{
-	position: relative;
-	width: 510px;
-	color : #868789;
-	left:10px;
-	cursor:pointer;
-}
-
-#listeDroite{
-	position:absolute;
-	left:555px;
-	top:80px;
-	width:175px;
-	height:450px;
-color:white;
-	font-size:0.9em;
-	overflow: hidden;
-	overflow-y: scroll;
-
-}
-
-a{
-	text-decoration: none;
-	color:#b1b2b4;
-	font-size:0.9em;
-}
-
-
-/* end habitacion*/

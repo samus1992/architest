@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#cercleHaut{
+	position: absolute;
+	top:105px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+}
+
+#cercleCentre{
+	position: absolute;
+	top:260px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+
+}
+
+#cercleBas{
+	position: absolute;
+	top:415px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+}
+#ligneTitre{
+	position: relative;
+	top:100px;
+	left: 120px;
+	width: 410px;
+	height: 20px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #adbcc4;
+	cursor:pointer;
+	
+}
+
+#zoneFormulaire{
+	
+position:absolute;
+	left:0px;
+	top:0px;
+	width:520px;
+	height: 560px;
+	
+}
+#cercleMadame{
+	position:absolute;
+	top:1.5px;
+	width: 10px;
+	height: 10px;
+	background: #e3e8ec;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float:left;
+	
+	
+}
+
+#madame{
+	position: absolute;
+	left:20px;
+	top:0px;
+	float:left;
+	z-index: 3;
+
+	
+}
+
+#cercleMademoiselle{
+	position:absolute;
+	left:105px;
+	top:1.5px;
+	width: 10px;
+	height: 10px;
+	background: #e3e9ec;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	
+	
+	
+}
+
+#mademoiselle{
+	position: absolute;
+	top:0px;
+	left:125px;
+	float:left;
+	
+	
+}
+
+#cercleMonsieur{
+	position:absolute;
+	top:1.5px;
+	left:250px;
+	width: 10px;
+	height: 10px;
+	
+	background: #e3e8ec;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float:left;
+	
+}
+
+#monsieur{
+	position: absolute;
+	left: 270px;
+	top:0px;
+	float:left;
+	
+}
+
+#titreNom{
+	position: absolute;
+	left: 110px;
+	top: 150px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #adbcc4;
+}
+
+#titrePrenom{
+	position: absolute;
+	left: 103px;
+	top: 185px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #adbcc4;
+}
+
+#titreEmail{
+	position: absolute;
+	left: 96px;
+	top: 220px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#titreTelephone{
+	position: absolute;
+	left: 89px;
+	top: 255px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #adbcc4;
+}
+
+#titreSujet{
+	position: absolute;
+	left: 82px;
+	top: 290px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#titreMessage{
+	position: absolute;
+	left: 70px;
+	top: 360px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#formNom{
+	position: absolute;
+	top: 149px;
+	left:160px;
+	width: 348px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formPrenom{
+	position: absolute;
+	top: 184px;
+	left:180px;
+	width: 328px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formEmail{
+	position: absolute;
+	top: 219px;
+	left:160px;
+	width: 348px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formTelephone{
+	position: absolute;
+	top: 254px;
+	left:180px;
+	width: 328px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formSujet{
+	position: absolute;
+	top: 289px;
+	left:150px;
+	width: 358px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formMessage{
+	position: absolute;
+	top: 355px;
+	left:150px;
+	width: 358px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#btEnvoyer{
+	
+	position: absolute;
+	top:480px;
+	right: 80px;
+}
+
+.inputEnvoyer{
+	position:absolute;
+	top:478px;
+	left:670px;
+	width: 250px;
+	height: 20px;
+	border:none;
+	border-width: 0px;
+	-moz-opacity:0.0;
+opacity: 0.0;
+filter:alpha(opacity=0);
+	
+}
+
+#zLeft{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	background-color: black;
+	height: 100%;
+	width: 130px;
+	
+}
+
+#fond{
+	position: relative;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:1100px;
+	min-height: 650px;
+	
+	width: 100%;
+height: 650px;
+}
+#fond_blanc{
+	position: relative;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:1100px;
+	min-height: 650px;
+	
+	width: 100%;
+height: 650px;
+}
+
+#zRight{
+	position: absolute;
+	left: 130px;
+	background-color: white;
+	height: 100%;
+	width: 970px;
+	z-index: 1;
+}
+#traitVertGris{
+	position:absolute;
+	Top:0px;
+	left: 530px;
+	height: 100%;
+	width: 15px;
+	background-color: #e3e8ec;
+	z-index: 0
+		
+}
+
+

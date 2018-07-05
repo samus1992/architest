@@ -2,126 +2,129 @@
 <html>
 <head>
 <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <title>ArchiTriad</title>
 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css">
 
-<!-- <LINK rel=STYLESHEET href="cssArHabitation.css" type="text/css">
- -->
-<link rel="shortcut icon" href="images/at.ico" type="image/x-icon">
-<script type="text/javascript" src="script.js"></script>
+  <link rel="shortcut icon" href="images/at.ico" type="image/x-icon">
+    <script type="text/javascript" src="script.js"></script>
 
+ <link rel="stylesheet" type="text/css" href="style_2.css">
 
 </head>
 
 <body>
 
 <div class="container">
-
-<div id=fond>
-<div id=imageFond>
-  <img src="images/fond/fondPageArchitecture.gif" width="1100" height="650" alt=""/> </div>
- 
-  <div id="zLeft">
-  <div id="logoLeftCarre" onClick="MM_goToURL('parent','index.html');return document.MM_returnValue">
-		  <img src="images/logoCarreBlanc.gif" width="85" height="85" alt=""/></div>
-		<div id="btcontact" onClick="MM_goToURL('parent','pContact.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btcontact','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btcontact','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
-			</div>
-		<div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceMortagne','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceMortagne','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Mortagne
+		<div id="fond">
+		<div id="imageFond">
+		  <img src="images/fond/fondPageArchitecture.gif" width="1100" height="650" alt=""/> </div>
+		 
+		  <div id="zLeft">
+		   <div id="logoLeftCarre">
+	  <!--<div id="logoLeftCarre" onClick="MM_goToURL('parent','index.html');return document.MM_returnValue">-->
+		 <a href="index.html"><img src="images/logoCarreBlanc.gif" width="85" height="85" alt=""/></a> </div>
+	  
+		<div id="btcontact" class="linky" > 
+			<a class="linky str" href="">&nbsp;Contact</a>
+					</div>
+	  
+	  	<!--<div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue"-->
+		<div id="btAgenceMortagne" >
+		 <a class="linky"  href=""> Agence&nbsp;Mortagne</a>
 	</div>
-		<div id="btAgenceArgentan" onClick="MM_goToURL('parent','pAgenceArgentan.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceArgentan','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceArgentan','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Argentan
+		<div id="btAgenceArgentan">
+				 <a class="linky"  href=""> Agence&nbsp;Argentan</a>
     </div>
-	<div id="cercleContact">
-	  </div>
-    <div id="cercleMortagne">
-	  </div>
-    <div id="cercleArgentan">
-	  </div>
-</div>
-	<div id="zCenter">
-	</div>	
-  <div id="zRight">
-  <div id=boxTextePresArchi>
-  	<div class="left"></div>
-  	<div><br><br><br><br><br><br>
-	  </div>
-  	<div id="titreHabitationGris" onClick="MM_goToURL('parent','pArHabitation.html');return document.MM_returnValue">
-  	HABITATION
-	  </div>
-	  <div>
-	  <br><br>
-	  </div>
-	  <div id="titreEtablissements" onClick="MM_goToURL('parent','pArEtablissement.html');return document.MM_returnValue">
-	  ETABLISSEMENTS&nbsp;CULTURELS,&nbsp;SOCIAUX<br>ET&nbsp;SCOLAIRES
-	  </div>
-	  <div><br><br>
-	  </div>
-	  <div id="titreIndustries" onClick="MM_goToURL('parent','pArIndustrie.html');return document.MM_returnValue">
-	  INDUSTRIES,&nbsp;BUREAUX&nbsp;ET&nbsp;COMMERCES
-	  </div>
-	  <div><br><br>
-	  </div>
-	  <div id="titrePatrimoine" onClick="MM_goToURL('parent','pArPatrimoine.html');return document.MM_returnValue">
-	  PATRIMOINE
-	  </div>
-	  <div>
-	  <br><br>
-	  </div>
-	  <div id="titreDivers" onClick="MM_goToURL('parent','pArdivers.html');return document.MM_returnValue">
-	  DIVERS
-	  </div>
-	  </div>
-	  	
-	
-		<div id="btArchitecture"
-		onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
-		onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
-	    <img src="images/imArchitectureBlanc.gif" width="279" height="18" alt=""/> </div>
-		<div id="btamenagements"
-	    onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
-		  <img src="images/imAmenagementGris.gif" width="279" height="18" alt=""/> 
-		  </div>
+			  
+			  
+			<div id="cercleContact">
+			  </div>
+		    <div id="cercleMortagne">
+			  </div>
+		    <div id="cercleArgentan">
+			  </div>
+		</div>
+			<div id="zCenter">
+			</div>	
+		  <div id="zRight">
+		  <div id=boxTextePresArchi>
+		  	<div class="left"></div>
+		  	<div><br><br><br><br><br><br>
+			  </div>
+		  	<div id="titreHabitationGris" onClick="MM_goToURL('parent','pArHabitation.html');return document.MM_returnValue">
+		  	<h5><span >HABITATION</span></h5>
+			  </div>
+			  <div>
+			  <br><br>
+			  </div>
+			  <div id="titreEtablissements" onClick="MM_goToURL('parent','pArEtablissement.html');return document.MM_returnValue">
+			  ETABLISSEMENTS&nbsp;CULTURELS,&nbsp;SOCIAUX<br>ET&nbsp;SCOLAIRES
+			  </div>
+			  <div><br><br>
+			  </div>
+			  <div id="titreIndustries" onClick="MM_goToURL('parent','pArIndustrie.html');return document.MM_returnValue">
+			  INDUSTRIES,&nbsp;BUREAUX&nbsp;ET&nbsp;COMMERCES
+			  </div>
+			  <div><br><br>
+			  </div>
+			  <div id="titrePatrimoine" onClick="MM_goToURL('parent','pArPatrimoine.html');return document.MM_returnValue">
+			  PATRIMOINE
+			  </div>
+			  <div>
+			  <br><br>
+			  </div>
+			  <div id="titreDivers" onClick="MM_goToURL('parent','pArdivers.html');return document.MM_returnValue">
+			  DIVERS
+			  </div>
+			  </div>
+			  	
 			
-		<div id="btarchitriad" 
-		onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
-		onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
-		  <img src="images/imArchiTriadGris.gif" width="279" height="18" alt=""/>
-			</div>
-		<div id="texte_bas">
-		<div id="imBasArchitriad">
-			<img src="images/imArchitriadBlanc.gif" width="296" height="20" alt=""/> </div>
-		<div id="imBasCabinetArchitecte">
-		  <img src="images/imCabinetArchitecteBlanc.gif" width="296" height="20" alt=""/> </div>
-		<div id="imBasArgentan">
-		  <img src="images/imArgentanBlanc.gif" width="296" height="20" alt=""/> </div>
-		<div id="imBasMortagne">
-		  <img src="images/imMortagneBlanc.gif" width="296" height="20" alt=""/> </div>
-		  </div>
-		<div id="traitVertGrisFonce">
-		  </div>
-		<div id="traitNoirBas">
-		  </div>
-		<div id="cercleHaut" 
-			onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
-			onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
-			</div>
-		<div id="cercleCentre"			        
-		onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
-			</div>
-		<div id="cercleBas"
-			onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
-			onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
-		  </div>
-	  </div>
-		
-	</div>
+				<div id="btArchitecture"
+				onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
+				onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
+			    <img src="images/imArchitectureBlanc.gif" width="279" height="18" alt=""/> </div>
+				<div id="btamenagements"
+			    onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
+				  <img src="images/imAmenagementGris.gif" width="279" height="18" alt=""/> 
+				  </div>
+					
+				<div id="btarchitriad" 
+				onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
+				onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
+				  <img src="images/imArchiTriadGris.gif" width="279" height="18" alt=""/>
+					</div>
+				<div id="texte_bas">
+				<div id="imBasArchitriad">
+					<img src="images/imArchitriadBlanc.gif" width="296" height="20" alt=""/> </div>
+				<div id="imBasCabinetArchitecte">
+				  <img src="images/imCabinetArchitecteBlanc.gif" width="296" height="20" alt=""/> </div>
+				<div id="imBasArgentan">
+				  <img src="images/imArgentanBlanc.gif" width="296" height="20" alt=""/> </div>
+				<div id="imBasMortagne">
+				  <img src="images/imMortagneBlanc.gif" width="296" height="20" alt=""/> </div>
+				  </div>
+				<div id="traitVertGrisFonce">
+				  </div>
+				<div id="traitNoirBas">
+				  </div>
+			  
+			  
+				<a href="pArchitecture.html"><div id="cercleHaut" >
+					</div> </a>
+				<div id="cercleCentre"			        
+				onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
+					</div>
+				<div id="cercleBas"
+					onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
+					onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
+				  </div>
+			  </div>
+				
+		</div>
 </div>
 
 

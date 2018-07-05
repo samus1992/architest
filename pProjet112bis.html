@@ -2,51 +2,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <title>ArchiTriad</title>
-<LINK rel=STYLESHEET href="pages_fond_couleur.css" type="text/css">
-<LINK rel=STYLESHEET href="fCssFonts.css" type="text/css">
-<LINK rel=STYLESHEET href="cssArHabitation.css" type="text/css">
+
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="shortcut icon" href="images/at.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="style_3.css">
 <LINK rel=STYLESHEET href="cssProjet.css" type="text/css">
-<script type="text/javascript">
-function MM_changeProp(objId,x,theProp,theValue) { //v9.0
-  var obj = null; with (document){ if (getElementById)
-  obj = getElementById(objId); }
-  if (obj){
-    if (theValue == true || theValue == false)
-      eval("obj.style."+theProp+"="+theValue);
-    else eval("obj.style."+theProp+"='"+theValue+"'");
-  }
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+<script type="text/javascript" src="script.js"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
 
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-function MM_goToURL() { //v3.0
-  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
-  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
-}
-</script>
 </head>
 
+
+
 <body onLoad="MM_preloadImages('images/p1/p112/p112Im2.gif')">
+
+<div class="container">
 
 <div id=fond>
 <div id=imageFond>
@@ -55,18 +29,21 @@ function MM_goToURL() { //v3.0
   <div id="zLeftProject">
   <div id="triangleProject">
 	</div>
-  
-  <div id="logoLeftCarre" onClick="MM_goToURL('parent','index.html');return document.MM_returnValue">
-		  <img src="images/logoCarreBlanc.gif" width="85" height="85" alt=""/></div>
-		<div id="btcontact" onClick="MM_goToURL('parent','pContact.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btcontact','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btcontact','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
+	  
+	  <div id="btcontact" class="linky" > 
+			<a class="linky str" href="">&nbsp;Contact</a>
+					</div>
+	  
+	  	<!--<div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue"-->
+		<div id="btAgenceMortagne" >
+		 <a class="linky"  href=""> Agence&nbsp;Mortagne</a>
 	</div>
-		<div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceMortagne','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceMortagne','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Mortagne
-	</div>
-		<div id="btAgenceArgentan" onClick="MM_goToURL('parent','pAgenceArgentan.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceArgentan','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceArgentan','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Argentan
+		<div id="btAgenceArgentan">
+				 <a class="linky"  href=""> Agence&nbsp;Argentan</a>
     </div>
+  
+	  
+	  
 	<div id="cercleContact">
     </div>
     <div id="cercleMortagne">
@@ -88,14 +65,14 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 	 
 </div>
 	<div id="zCenter">
-	<div id="titreProjet"><br><br>
-		<span style="color:#e05015 ; font-family:Helvetica Neue LT Std; font-size: 1.2em">GITES - 61400 LA CHAPELLE MONTLIGEON</span><br><br>
-		<span style="color:#e3e8ec; font-family:Helvetica;font-size: 0.8em ">
+	<div id="titreProjet"><br>
+	  <span class="title_orange">GITES - 61400 LA CHAPELLE MONTLIGEON</span><br>
+		<span class="sousTitle" >
 			Maître d’ouvrage : Privé<br>
 			Année : 2015<br>
 			Coût global de l’opération : bâtiment 1 300 000 € HT+ VRD 130 000 € HT
 		</span>
-		</div>
+	  </div>
 	<div id=cercleIm1 
 	onMouseOver="MM_swapImage('imageProject','','images/p1/p112/p112Im1.gif',1);
 	 MM_changeProp('cercleIm1','','backgroundColor','#e05015','DIV');
@@ -104,7 +81,7 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 	 MM_changeProp('cercleIm4','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm5','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm6','','backgroundColor','#adbcc4','DIV')">
-		</div>
+	  </div>
 	<div id=cercleIm2
 	 onMouseOver="MM_swapImage('imageProject','','images/p1/p112/p112Im2.gif',1);
 	 MM_changeProp('cercleIm1','','backgroundColor','#adbcc4','DIV');
@@ -113,7 +90,7 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 	 MM_changeProp('cercleIm4','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm5','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm6','','backgroundColor','#adbcc4','DIV')">
-		</div>
+	  </div>
 	<div id=cercleIm3
 	onMouseOver="MM_swapImage('imageProject','','images/p1/p112/p112Im3.gif',1);
 	 MM_changeProp('cercleIm1','','backgroundColor','#adbcc4','DIV');
@@ -122,7 +99,7 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 	 MM_changeProp('cercleIm4','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm5','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm6','','backgroundColor','#adbcc4','DIV')">
-		</div>
+	  </div>
 	<div id=cercleIm4
 	onMouseOver="MM_swapImage('imageProject','','images/p1/p112/p112Im4.gif',1);
 	 MM_changeProp('cercleIm1','','backgroundColor','#adbcc4','DIV');
@@ -131,7 +108,7 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 	 MM_changeProp('cercleIm4','','backgroundColor','#e05015','DIV');
 	 MM_changeProp('cercleIm5','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm6','','backgroundColor','#adbcc4','DIV')">
-		</div>
+	  </div>
 	<div id=cercleIm5
 	onMouseOver="MM_swapImage('imageProject','','images/p1/p112/p112Im5.gif',1);
 	 MM_changeProp('cercleIm1','','backgroundColor','#adbcc4','DIV');
@@ -140,7 +117,7 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 	 MM_changeProp('cercleIm4','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm5','','backgroundColor','#e05015','DIV');
 	 MM_changeProp('cercleIm6','','backgroundColor','#adbcc4','DIV')">
-		</div>
+	  </div>
 	<div id=cercleIm6
 	onMouseOver="MM_swapImage('imageProject','','images/p1/p112/p112Im6.gif',1);
 	 MM_changeProp('cercleIm1','','backgroundColor','#adbcc4','DIV');
@@ -149,22 +126,19 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 	 MM_changeProp('cercleIm4','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm5','','backgroundColor','#adbcc4','DIV');
 	 MM_changeProp('cercleIm6','','backgroundColor','#e05015','DIV')">
-		</div>
+	  </div>
 	
 	<div id="texteBasProjet">
-			<a href="pArHabitation.html"><span style="color:white">HABITATION</span></a>&nbsp;
-			<span style="color:#e05015">///</span>&nbsp;
-			<a href="pArEtablissement.html">ETABLISSEMENTS CULTURELS, SOCIAUX ET SCOLAIRES</a>&nbsp;
-			<span style="color:#e05015">///</span>&nbsp;
-			<a href="pArIndustrie.html">INDUSTRIES, BUREAUX ET COMMERCES</a>&nbsp;
-			<span style="color:#e05015">///</span>&nbsp;
-			<a href="pArPatrimoine.html">PATRIMOINE</a>&nbsp;
-			<span style="color:#e05015">///</span>&nbsp;
-			<a href="pArDivers.html">DIVERS</a>&nbsp;
-			<span style="color:#e05015">///</span>&nbsp;
-		
-		
-		
+			<a href="pArHabitation.html"><span class="actived">HABITATION</span></a>&nbsp;
+			<span >///</span>&nbsp;
+			<a href="pArEtablissement.html" class="list_two">ETABLISSEMENTS CULTURELS, SOCIAUX ET SCOLAIRES</a>&nbsp;
+			<span >///</span>&nbsp;
+			<a href="pArIndustrie.html" class="list_two">INDUSTRIES, BUREAUX ET COMMERCES</a>&nbsp;
+			<span >///</span>&nbsp;
+			<a href="pArPatrimoine.html" class="list_two">PATRIMOINE</a>&nbsp;
+			<span >///</span>&nbsp;
+			<a href="pArDivers.html" class="list_two">DIVERS</a>&nbsp;
+			<span >///</span>&nbsp;
 		
 		
     </div>
@@ -172,29 +146,32 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
   <div id="zRight">
   
 	  	
-	  <div id="listeDroite">
-	  Rénovations et extensions de constructions anciennes<br>
-		  <a href="pProjet111.html">- Propriété à Mortagne-au-Perche (61) Poirier</a><br>
-		  <a href="pProjet112bis.html">- Restructuration de 6 bâtiments pour l'aménagement de 7 gîtes - La Chapelle Montligeon (61)</a><br>
-		  <a href="pProjet113.html">- Propriété dans la campagne d'Argentan (61)</a><br>
-		  <a href="pProjet114.html">- Propriété à Pervenchères (61)</a><br>
-		  <a href="pProjet115.html">- propriété en bordure de forêt à St Victor de Réno</a><br>
+	  <div class="listeDroite">
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>Rénovations et extensions de constructions anciennes<br>
+		  <a href="pProjet111.html" class="list_two" >- Propriété à Mortagne-au-Perche (61) Poirier</a><br>
+		  <a class="actived" href="pProjet112bis.html">- Restructuration de 6 bâtiments pour l'aménagement de 7 gîtes - La Chapelle Montligeon (61)</a><br>
+		  <a href="pProjet113.html" class="list_two">- Propriété dans la campagne d'Argentan (61)</a><br>
+		  <a href="pProjet114.html" class="list_two">- Propriété à Pervenchères (61)</a><br>
+		  <a href="pProjet115.html" class="list_two">- propriété en bordure de forêt à St Victor de Réno</a><br>
 		  <br>
       Constructions Neuves<br>
-		  <a href="pProjet121.html">- Maison particuliere à Monceaux-au-Perche (61)</a><br>
-		  <a href="pProjet122.html">- Maison particulière à Alençon (61)</a><br>
-    </div>
+		  <a href="pProjet121.html" class="list_two">- Maison particuliere à Monceaux-au-Perche (61)</a><br>
+		  <a href="pProjet122.html" class="list_two">- Maison particulière à Alençon (61)</a><br>
+	    </p>
+      </div>
 	
-		<div id="btArchitecture"
+	  <div id="btArchitecture"
 		onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
 		onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
 	    <img src="images/imArchitectureBlanc.gif" width="279" height="18" alt=""/> </div>
-		<div id="btamenagements"
+	  <div id="btamenagements"
 	    onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
 		  <img src="images/imAmenagementGris.gif" width="279" height="18" alt=""/> 
     </div>
 			
-		<div id="btarchitriad" 
+	  <div id="btarchitriad" 
 		onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
 		onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
 		  <img src="images/imArchiTriadGris.gif" width="279" height="18" alt=""/>
@@ -202,9 +179,9 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 		
 		<div id="traitVertGrisFonce">
     </div>
-		<div id="traitNoirBas">
+	  <div id="traitNoirBas">
     </div>
-		<div id="cercleHaut" 
+	  <div id="cercleHaut" 
 			onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
 			onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
 	</div>
@@ -216,21 +193,7 @@ En plein cœur du bourg historique, le projet de réhabilitation devait se fondr
 			onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
     </div>
   </div>
-		
-			
-			
-
-		
-			
-
-
-
-
-
-				
-			
-			
-	
+</div>
 		
 </div>
 
