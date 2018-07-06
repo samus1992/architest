@@ -57,11 +57,10 @@ body{
 
 #btcontact{
 	position: absolute;
-	top: 95px;
-	left: 29px;
+	top: 104px;
+	left: 16px;
 	cursor: pointer;
-	font-size: 12px;
-	
+	font-size: 17px;
 	z-index: 3;
 	/* Rotation du div */
 	transform: rotate(-79deg);
@@ -77,10 +76,10 @@ body{
 
 #btAgenceMortagne{
 	position: absolute;
-	top: 66px;
-	left: 28px;
+	top: 65px;
+	left: 7px;
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 17px;
 	color: #000000;
 	z-index: 1;
 	/* Rotation du div */
@@ -93,10 +92,10 @@ body{
 
 #btAgenceArgentan{
 	position: absolute;
-	top: 66px;
-	left: 52px;
+	top: 65px;
+	left: 35px;
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 17px;
 	color: #000000;
 	z-index: 3;
 	/* Rotation du div */
@@ -143,9 +142,9 @@ body{
 
 #traitNoirBas{
 	position: absolute;
-	top:560px;
-	left:0px;
-	height:2px;
+	top: 560px;
+	left: 25px;
+	height: 2px;
 	width: 920px;
 	background-color: black;
 	cursor: default;
@@ -220,6 +219,12 @@ body{
 	height: 17px;
 	
 }
+
+
+img.overColor :hover{
+	background: rgb(254,127,45);
+}
+
 
 #btamenagements{
 	position: absolute;
@@ -339,6 +344,27 @@ width: 120px;
 }
 
 
+@font-face {
+	font-family:"marble";
+	src:url(fonts/MrblMchn.ttf);
+}
+
+@font-face {
+	font-family:"appleDot";
+	src:url(fonts/apple_dot.ttf);
+}
+
+
+@font-face {
+	font-family:"marengu";
+	src:url(fonts/Marengi.ttf);
+}
+
+
+@font-face {
+	font-family:"dot";
+	src:url(fonts/DotMatrixRegular.ttf);
+}
 
 /*end fonts */
 
@@ -387,6 +413,115 @@ width: 120px;
 	
 }
 
+
+
+
+
+
+
+.cercleHautV2{
+	position: absolute;
+	top:105px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	cursor: pointer;
+	
+}
+
+
+img.btArchitectureV2 :hover{
+	background-image: url(images/imArchitectureOrange.gif);
+/*
+	width: 279px;
+	height: 18px;
+*/
+}
+
+
+.cercleCentreV2{
+	position: absolute;
+	top:260px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	cursor: pointer;
+	
+
+}
+
+
+.cercleCentreV2:hover{
+	image	
+}
+
+.cercleBasV2{
+	position: absolute;
+	top:415px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+
+
+.btArchitectureV2{
+	position: absolute;
+	top: 170px;
+	right:10px;
+	cursor: pointer;
+	color: white;
+/*	font-family: "marble";*/
+/*	font-family: "appleDot";*/
+/*	font-family: "marengu";*/
+	font-family: "dot";
+	font-size: 22px;
+	
+}
+
+
+.btamenagementsV2{
+	position:absolute;
+	top:325px;
+	right:10px;
+	cursor: pointer;
+}
+.btarchitriadV2{
+	position: absolute;
+	top:480px;
+	right: 10px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #fond{
 	position: relative;
 	margin-left: auto;
@@ -417,8 +552,8 @@ height: 650px;
 
 #cercleContact{
 	position: absolute;
-	top: 126px;
-	left: 39px;
+	top: 152px;
+	left: 33px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
@@ -427,7 +562,7 @@ height: 650px;
 
 #cercleMortagne{
 	position: absolute;
-	top: 126px;
+	top: 152px;
 	left: 60px;
 	width: 15px;
 	height: 15px;
@@ -437,8 +572,8 @@ height: 650px;
 
 #cercleArgentan{
 	position: absolute;
-	top: 126px;
-	left: 81px;
+	top: 152px;
+	left: 84px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
@@ -517,8 +652,8 @@ cursor: pointer;}
 
 .listeDroite{
 	position: absolute;
-	left: 547px;
-	top: 188px;
+	left: 557px;
+	top: 222px;
 	width: 348px;
 	height: 363px;
 	color: white;
@@ -563,6 +698,15 @@ cursor: pointer;}
 
 
 
+/*links up_left*/
+
+
+
+
+
+
+/* end links up_left*/
+
 a.linky:visited {
 	color: red;
 }
@@ -586,4 +730,77 @@ a.list_two{
 a.list_two:hover{
 	color: #e05015;
 	text-decoration: none;
+}
+
+
+
+.cercleHautV2{
+	position: absolute;
+	top:105px;
+	right:0px;
+	background:#51646e;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+}
+
+.cercleCentreV2{
+	position: absolute;
+	top:260px;
+	right:0px;
+	background:#51646e;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+
+}
+
+.cercleBasV2{
+	position: absolute;
+	top:415px;
+	right:0px;
+	background:#51646e;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+}
+
+
+a.diags:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+a.diags:visited, a.diags{
+	color: #fff;
+	
+}
+
+
+.hovery:hover{
+	color: #e05015;
+	background-color: #e05015;
+}
+
+
+
+
+a.hoverText :hover{
+	position: absolute;
+	top: 170px;
+	right:10px;
+	cursor: pointer;
+	color: blueviolet;
+/*	font-family: "marble";*/
+/*	font-family: "appleDot";*/
+/*	font-family: "marengu";*/
+	font-family: "dot";
+	font-size: 22px;
+	
 }
