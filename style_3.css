@@ -517,7 +517,7 @@ cursor: pointer;}
 
 .listeDroite{
 	position: absolute;
-	left: 547px;
+	left: 561px;
 	top: 188px;
 	width: 348px;
 	height: 363px;
@@ -537,11 +537,6 @@ cursor: pointer;}
 /*end habitacion*/
 
 
-
-.actived:visited, a.actived:hover{
-	color:#fff ;
-	text-decoration: none;
-}
 
 .actived{
 	color:#FF7700 ;
@@ -570,11 +565,12 @@ cursor: pointer;}
 
 a.linky:visited {
 	color: white;
+	text-decoration: none;
 }
 
 a.linky:hover{
 	color: #e05015;
-	
+	text-decoration: none;
 }
 
 
@@ -592,3 +588,27 @@ a.list_two:hover{
 	color: #e05015;
 	text-decoration: none;
 }
+
+
+
+.actived:visited, a.actived:hover{
+	color:#fff ;
+	text-decoration: none;
+}
+
+ a.actived:hover{
+	 color:#fff ;
+	 text-decoration: none;}
+	 
+
+
+
+.actived:visited, a.actived:hover{
+	color:#fff ;
+	text-decoration: none;
+}
+
+ a.actived:hover{
+	 color:#fff ;
+	 text-decoration: none;}
+	 
