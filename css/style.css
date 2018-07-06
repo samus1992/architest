@@ -109,30 +109,30 @@ height: 650px;
 
 @font-face {
 	font-family: 'Designio';
-	src: url('fonts/DesignioBold.eot');
-	src: url('fonts/DesignioBold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/DesignioBold.woff') format('woff'),
-		url('fonts/DesignioBold.ttf') format('truetype');
+	src: url('../fonts/DesignioBold.eot');
+	src: url('../fonts/DesignioBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DesignioBold.woff') format('woff'),
+		url('../fonts/DesignioBold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Helvetica Neue LT Std';
-	src: url('fonts/HelveticaNeueLTStd-BdCn.eot');
-	src: url('fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
-		url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
-		url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+	src: url('../fonts/HelveticaNeueLTStd-BdCn.eot');
+	src: url('../fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Helvetica';
-	src: url('fonts/Helvetica.eot');
-	src: url('fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Helvetica.woff') format('woff'),
-		url('fonts/Helvetica.ttf') format('truetype');
+	src: url('../fonts/Helvetica.eot');
+	src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Helvetica.woff') format('woff'),
+		url('../fonts/Helvetica.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -211,7 +211,7 @@ height: 650px;
 
 #zCenter{
 	position: absolute;
-	background-image: url(images/test_bg.svg);
+	background-image: url(../images/test_bg.svg);
 	background-size: cover;
 	top: 0px;
 	left: 123px;

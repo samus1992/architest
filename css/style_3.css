@@ -1,23 +1,3 @@
-@charset "UTF-8";
-/* CSS Document */
-
-/*html{
-	min-width: 100%;
-	min-height:100vh;
-		
-}
-body{
-	position: relative;
-	background-color: black;
-	width: 1100px;
-	height=650px;
-	margin-left: auto;
-	margin-right: auto;
-	
-	
- 
-}
-*/
 
 body{
 	background-color: black;
@@ -26,13 +6,6 @@ body{
 .container{
 	margin-top: 5%;
 }
-
-
-
-
-
-
-
 
 
 #zLeft_blanc{
@@ -57,10 +30,11 @@ body{
 
 #btcontact{
 	position: absolute;
-	top: 104px;
-	left: 16px;
+	top: 95px;
+	left: 29px;
 	cursor: pointer;
-	font-size: 17px;
+	font-size: 12px;
+	
 	z-index: 3;
 	/* Rotation du div */
 	transform: rotate(-79deg);
@@ -76,10 +50,10 @@ body{
 
 #btAgenceMortagne{
 	position: absolute;
-	top: 65px;
-	left: 7px;
+	top: 66px;
+	left: 28px;
 	cursor: pointer;
-	font-size: 17px;
+	font-size: 12px;
 	color: #000000;
 	z-index: 1;
 	/* Rotation du div */
@@ -92,10 +66,10 @@ body{
 
 #btAgenceArgentan{
 	position: absolute;
-	top: 65px;
-	left: 35px;
+	top: 66px;
+	left: 52px;
 	cursor: pointer;
-	font-size: 17px;
+	font-size: 12px;
 	color: #000000;
 	z-index: 3;
 	/* Rotation du div */
@@ -142,9 +116,9 @@ body{
 
 #traitNoirBas{
 	position: absolute;
-	top: 560px;
-	left: 25px;
-	height: 2px;
+	top:560px;
+	left:0px;
+	height:2px;
 	width: 920px;
 	background-color: black;
 	cursor: default;
@@ -220,12 +194,6 @@ body{
 	
 }
 
-
-img.overColor :hover{
-	background: rgb(254,127,45);
-}
-
-
 #btamenagements{
 	position: absolute;
 	top: 97px;
@@ -280,7 +248,6 @@ width: 120px;
 	left:-37px;
 	height: 90px;
 	width:970px;
-	
 	z-index: 2;
 	cursor: default;
 }
@@ -315,56 +282,35 @@ width: 120px;
 
 @font-face {
 	font-family: 'Designio';
-	src: url('fonts/DesignioBold.eot');
-	src: url('fonts/DesignioBold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/DesignioBold.woff') format('woff'),
-		url('fonts/DesignioBold.ttf') format('truetype');
+	src: url('../fonts/DesignioBold.eot');
+	src: url('../fonts/DesignioBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DesignioBold.woff') format('woff'),
+		url('../fonts/DesignioBold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Helvetica Neue LT Std';
-	src: url('fonts/HelveticaNeueLTStd-BdCn.eot');
-	src: url('fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
-		url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
-		url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+	src: url('../fonts/HelveticaNeueLTStd-BdCn.eot');
+	src: url('../fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Helvetica';
-	src: url('fonts/Helvetica.eot');
-	src: url('fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Helvetica.woff') format('woff'),
-		url('fonts/Helvetica.ttf') format('truetype');
+	src: url('../fonts/Helvetica.eot');
+	src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Helvetica.woff') format('woff'),
+		url('../fonts/Helvetica.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 
-@font-face {
-	font-family:"marble";
-	src:url(fonts/MrblMchn.ttf);
-}
-
-@font-face {
-	font-family:"appleDot";
-	src:url(fonts/apple_dot.ttf);
-}
-
-
-@font-face {
-	font-family:"marengu";
-	src:url(fonts/Marengi.ttf);
-}
-
-
-@font-face {
-	font-family:"dot";
-	src:url(fonts/DotMatrixRegular.ttf);
-}
 
 /*end fonts */
 
@@ -413,115 +359,6 @@ width: 120px;
 	
 }
 
-
-
-
-
-
-
-.cercleHautV2{
-	position: absolute;
-	top:105px;
-	right:0px;
-	background:#e3e9ec;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	cursor: pointer;
-	
-}
-
-
-img.btArchitectureV2 :hover{
-	background-image: url(images/imArchitectureOrange.gif);
-/*
-	width: 279px;
-	height: 18px;
-*/
-}
-
-
-.cercleCentreV2{
-	position: absolute;
-	top:260px;
-	right:0px;
-	background:#e3e9ec;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	cursor: pointer;
-	
-
-}
-
-
-.cercleCentreV2:hover{
-	image	
-}
-
-.cercleBasV2{
-	position: absolute;
-	top:415px;
-	right:0px;
-	background:#e3e9ec;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	cursor: pointer;
-	
-}
-
-
-
-
-
-
-
-.btArchitectureV2{
-	position: absolute;
-	top: 170px;
-	right:10px;
-	cursor: pointer;
-	color: white;
-/*	font-family: "marble";*/
-/*	font-family: "appleDot";*/
-/*	font-family: "marengu";*/
-	font-family: "dot";
-	font-size: 22px;
-	
-}
-
-
-.btamenagementsV2{
-	position:absolute;
-	top:325px;
-	right:10px;
-	cursor: pointer;
-}
-.btarchitriadV2{
-	position: absolute;
-	top:480px;
-	right: 10px;
-	cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #fond{
 	position: relative;
 	margin-left: auto;
@@ -552,32 +389,32 @@ height: 650px;
 
 #cercleContact{
 	position: absolute;
-	top: 152px;
-	left: 33px;
+	top: 126px;
+	left: 39px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
-	background: black;
+	background: white;
 }
 
 #cercleMortagne{
 	position: absolute;
-	top: 152px;
+	top: 126px;
 	left: 60px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
-	background: black;
+	background: white;
 }
 
 #cercleArgentan{
 	position: absolute;
-	top: 152px;
-	left: 84px;
+	top: 126px;
+	left: 81px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
-	background: black;
+	background: white;
 }
 
 #traitVertGrisFonce{
@@ -652,8 +489,8 @@ cursor: pointer;}
 
 .listeDroite{
 	position: absolute;
-	left: 557px;
-	top: 222px;
+	left: 565px;
+	top: 216px;
 	width: 348px;
 	height: 363px;
 	color: white;
@@ -663,6 +500,22 @@ cursor: pointer;}
 
 }
 
+
+.listeDroite_etabl{
+	position: absolute;
+	left: 549px;
+	top: 196px;
+	width: 418px;
+	height: 363px;
+	color: white;
+	font-size: 0.9em;
+	overflow: hidden;
+	overflow-y: scroll;
+
+}
+
+
+
 /*a{
 	text-decoration: none;
 	color:#b1b2b4;
@@ -670,11 +523,6 @@ cursor: pointer;}
 }
 */
 /*end habitacion*/
-
-
-.active{
-	color:#FF7700 ;
-}
 
 
 
@@ -698,27 +546,19 @@ cursor: pointer;}
 
 
 
-/*links up_left*/
-
-
-
-
-
-
-/* end links up_left*/
-
 a.linky:visited {
-	color: red;
+	color: white;
+	text-decoration: none;
 }
 
 a.linky:hover{
 	color: #e05015;
-	
+	text-decoration: none;
 }
 
 
 a.linky{
-	color:black;
+	color:white;
 }
 
 a.list_two{
@@ -732,75 +572,21 @@ a.list_two:hover{
 	text-decoration: none;
 }
 
-
-
-.cercleHautV2{
-	position: absolute;
-	top:105px;
-	right:0px;
-	background:#51646e;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	
-}
-
-.cercleCentreV2{
-	position: absolute;
-	top:260px;
-	right:0px;
-	background:#51646e;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	
-
-}
-
-.cercleBasV2{
-	position: absolute;
-	top:415px;
-	right:0px;
-	background:#51646e;
-  	border-radius:50%;
-  	width:70px;
-  	height:140px;
-  	border-radius: 70px 0px 0px 70px;
-	
-}
-
-
-a.diags:hover{
-	color: #000;
+.actived{
+	color:#FF7700 ;
 	text-decoration: none;
 }
 
-a.diags:visited, a.diags{
-	color: #fff;
-	
+
+ a.actived:hover{
+	color:#fff ;
+	text-decoration: none;
 }
 
 
-.hovery:hover{
-	color: #e05015;
-	background-color: #e05015;
+.actived:hover{
+	color:#FF7700 ;
+	text-decoration: none;
 }
 
 
-
-
-a.hoverText :hover{
-	position: absolute;
-	top: 170px;
-	right:10px;
-	cursor: pointer;
-	color: blueviolet;
-/*	font-family: "marble";*/
-/*	font-family: "appleDot";*/
-/*	font-family: "marengu";*/
-	font-family: "dot";
-	font-size: 22px;
-	
-}
