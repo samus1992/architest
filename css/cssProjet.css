@@ -37,6 +37,7 @@ z-index: 2;
 	
 	
 }
+
 .right{
 	position: relative;
 	top:0px;
@@ -57,6 +58,14 @@ width: 65px;
 	position: relative;
 	width: 205px;
 	height: 350px;
+}
+
+#TexteProject_test{
+	position: relative;
+	width: 205px;
+	height: 350px;
+	font-size: 11px;
+	font-family: "Helvetica Neue LT Std";
 }
 
 #cadreImageBis{

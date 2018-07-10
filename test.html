@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ArchiTriad</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/cssContact.css">
+
+    <link rel="shortcut icon" href="images/at.ico" type="image/x-icon">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container"> <!-- container --> 
+
+
+
+        <div id="fond"> <!-- fond -->
+            <div id="zLeft">  <!-- zLeft -->
+                <div id="logo_left">
+                    <img src="images/Logo-ss_nom-V.gif" width="85" height="515" alt="" /></div>
+                <div id="btcontact" onClick="MM_goToURL('parent','pContact.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btcontact','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btcontact','','color','#FFFFFF','DIV')">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
+                </div>
+                <div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceMortagne','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceMortagne','','color','#FFFFFF','DIV')">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Mortagne
+                </div>
+                <div id="btAgenceArgentan" onClick="MM_goToURL('parent','pAgenceArgentan.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceArgentan','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceArgentan','','color','#FFFFFF','DIV')">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Argentan
+                </div>
+            </div>
+            <!--end zLeft -->
+
+            <div id="zCenter">
+                <!-- zcenter 
+                <div id="triangle"></div>-->
+            </div>
+            <!--end zcenter -->
+
+
+            <div id="zRight">
+                <!-- <zright> -->
+
+                <div id="boxTextePresArchi">
+                    <!-- boxTexte -->
+                    <div class="left"></div>
+                    <div id="zoneFormulaire">
+            <div id="ligneTitre">
+          <div id="cercleMadame"onClick="MM_changeProp('cercleMadame','','backgroundColor','#e05015','DIV');MM_changeProp('cercleMademoiselle','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMonsieur','','backgroundColor','#e3e9ec','DIV')"
+          ></div>
+            <div id="madame" onClick="MM_changeProp('cercleMadame','','backgroundColor','#e05015','DIV');MM_changeProp('cercleMademoiselle','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMonsieur','','backgroundColor','#e3e9ec','DIV')">
+            MADAME</div>
+            <div id="cercleMademoiselle" onClick="MM_changeProp('cercleMadame','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMademoiselle','','backgroundColor','#e05015','DIV');MM_changeProp('cercleMonsieur','','backgroundColor','#e3e9ec','DIV')"></div>
+            <div id="mademoiselle"
+            onClick="MM_changeProp('cercleMadame','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMademoiselle','','backgroundColor','#e05015','DIV');MM_changeProp('cercleMonsieur','','backgroundColor','#e3e9ec','DIV')">
+            MADEMOISELLE</div>
+            <div id="cercleMonsieur" onClick="MM_changeProp('cercleMadame','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMademoiselle','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMonsieur','','backgroundColor','#e05015','DIV')"></div>
+            <div id="monsieur" onClick="MM_changeProp('cercleMadame','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMademoiselle','','backgroundColor','#e3e9ec','DIV');MM_changeProp('cercleMonsieur','','backgroundColor','#e05015','DIV')">
+            MONSIEUR</div></div>
+            <div id="titreNom">
+            NOM&nbsp;:
+            </div>
+            <div id="titrePrenom">
+            PRENOM&nbsp;:
+            </div>
+            <div id="titreEmail">
+            E-MAIL&nbsp;:
+            </div>
+            <div id="titreTelephone">
+            TELEPHONE&nbsp;:
+            </div>
+            <div id="titreSujet">
+            SUJET&nbsp;:
+            </div>
+            <div id="titreMessage">
+            MESSAGE&nbsp;:
+            </div>
+            <form id="formulaire" method="post" action="pTraitementContact.php">
+
+<input type="text" id="formNom" name="formNom" tabindex="1" />
+<input type="text" id="formPrenom" name="formPrenom" tabindex="1" />
+<input type="text" id="formEmail" name="formEmail" tabindex="1" />
+<input type="text" id="formTelephone" name="formTelephone" tabindex="1" />
+<input type="text" id="formSujet" name="formSujet" tabindex="1" />
+<textarea id="formMessage" name="formMessage" cols="40" rows="10"> </textarea>
+
+<input type="submit" class="inputEnvoyer" name="envoi" value="" id="submit" onMouseOver="MM_changeProp('cercleBas','','background','#df5225','DIV')"
+        onMouseOut="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"/>
+</form>
+          </div>
+</div>
+
+
+                    </div><!--end text -->
+                    
+                </div>  <!-- end boxTexte -->
+              
+
+                <div id="btArchitecture" onClick="MM_goToURL('parent','pArchitecture.html');return document.MM_returnValue" onMouseOver="MM_changeProp('cercleHaut','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleHaut','','background','#e3e9ec','DIV')">
+                    <img src="images/imArchitectureOrange.gif" width="279" height="18" alt="" />
+                </div>
+
+                <div id="btamenagements" onMouseOver="MM_changeProp('cercleCentre','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')">
+                    <img src="images/imAmenagementOrange.gif" width="279" height="18" alt="" />
+                </div>
+
+                <div id="btarchitriad" onMouseOver="MM_changeProp('cercleBas','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')">
+                    <img src="images/imArchiTriadOrange.gif" width="279" height="18" alt="" />
+                </div>
+
+
+                <div id="texte_bas"><!--texte Bas -->
+                    
+                    <div id="imBasArchitriad">
+                        <img src="images/imArchitriadNoir.gif" width="296" height="20" alt="" /> </div>
+                    <div id="imBasCabinetArchitecte">
+                        <img src="images/imCabinetArchitecteNoir.gif" width="296" height="20" alt="" /> </div>
+                    <div id="imBasArgentan">
+                        <img src="images/imArgentanNoir.gif" width="296" height="20" alt="" /> </div>
+                    <div id="imBasMortagne">
+                        <img src="images/imMortagneNoir.gif" width="296" height="20" alt="" /> </div>
+                </div><!--end text bas-->
+                
+
+
+                <!-- lines  -->
+              <div id="traitVertGris"></div>
+                <div id="traitNoirBas"></div>
+                <!-- lines  -->
+
+                <!-- circles -->
+               <a href="pArchitecture.html"> <div id="cercleHaut" >
+                 <p>&nbsp;</p>
+                 <p>&nbsp;</p>
+
+                </div>					</a>
+				
+				
+                <div id="cercleCentre" onMouseOver="MM_changeProp('cercleCentre','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')">
+                </div>
+                <div id="cercleBas" onMouseOver="MM_changeProp('cercleBas','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')">
+                </div>
+                <!-- end circles -->
+
+            </div><!-- end zright> -->
+            
+
+        </div> <!-- end fond> -->
+
+    </div> <!-- end container --> 
+
+</body>
+
+</html>

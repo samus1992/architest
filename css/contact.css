@@ -1,0 +1,653 @@
+/*si*/
+
+body{
+	background-color: black;
+}
+
+.container{
+	margin-top: 5%;
+	height: 10px;
+}
+
+
+#zLeft_blanc{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	background-color: white;
+	height: 100%;
+	width: 130px;
+	
+}
+
+#logo_left{
+	position: absolute;
+	top:105px;
+	left:25px;
+	cursor:pointer;
+
+	
+}
+
+/*
+no*/
+
+
+#btcontact{
+	position: absolute;
+	top: 75px;
+	left: 28px;
+	cursor: pointer;
+	font-size: 12px;
+	
+	z-index: 3;
+	/* Rotation du div */
+	transform: rotate(-79deg);
+	-ms-transform: rotate(-79deg); /* Internet Explorer */
+	-moz-transform: rotate(-79deg); /* Firefox */
+	-webkit-transform: rotate(-79deg); /* Safari et Chrome */
+	-o-transform: rotate(-79deg); /* Opera */
+	color: #000;
+}
+
+
+
+
+#btAgenceMortagne{
+	position: absolute;
+	top: 46px;
+	left: 28px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #000000;
+	z-index: 1;
+	/* Rotation du div */
+	transform: rotate(-79deg);
+	-ms-transform: rotate(-79deg); /* Internet Explorer */
+	-moz-transform: rotate(-79deg); /* Firefox */
+	-webkit-transform: rotate(-79deg); /* Safari et Chrome */
+	-o-transform: rotate(-79deg); /* Opera */
+}
+
+#btAgenceArgentan{
+	position: absolute;
+	top: 46px;
+	left: 52px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #000000;
+	z-index: 3;
+	/* Rotation du div */
+	transform: rotate(-79deg);
+	-ms-transform: rotate(-79deg); /* Internet Explorer */
+	-moz-transform: rotate(-79deg); /* Firefox */
+	-webkit-transform: rotate(-79deg); /* Safari et Chrome */
+	-o-transform: rotate(-79deg); /* Opera */
+}
+
+
+
+#zCenter{
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	height: 100%;
+	width: 100px;
+	z-index: 2;
+	cursor: default;
+}
+
+#triangle{
+	border-color: #000000 transparent transparent #000000;
+    border-style: solid;
+    border-width: 0px 120px 650px;
+    cursor: default;
+    height: 0;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 0;
+	
+}
+
+#traitVertGris{
+	position:absolute;
+	Top:0px;
+	left: 530px;
+	height: 100%;
+	width: 15px;
+	background-color: #e3e8ec;
+	z-index: 0;
+	cursor: default;
+		
+}
+
+#traitNoirBas{
+	position: absolute;
+	top:560px;
+	left:0px;
+	height:2px;
+	width: 920px;
+	background-color: black;
+	cursor: default;
+}
+
+#traitGrisBas{
+	position: absolute;
+	top:560px;
+	left:-20px;
+	height:2px;
+	width: 940px;
+	background-color: #e3e8ec;
+	z-index: 1;
+	cursor: default;
+}
+
+#traitGrisBasGauche{
+	position: absolute;
+	top:560px;
+	left:0px;
+	height:2px;
+	width:25px;
+	background-color: #e3e8ec;
+	cursor: default;
+
+}
+
+
+
+#texte_p_a{
+
+	height:560px;
+	width:510px;
+	text-align: justify;
+	font-family: Helvetica;
+	font-size: 13px;
+	cursor: default;
+
+	
+
+}
+
+
+#titre_texte_p_a{
+	position: absolute;
+	top: 50px;
+	width: 510px;
+	color: #adbcc4;
+	font-size: 25px;
+	font-family: Helvetica Neue LT Std;
+	cursor: default;
+	
+	
+}
+
+#corps_texte_p_a{
+	position: relative;
+	top:125px;
+	width: 510px;
+	cursor: default;
+	
+}
+
+
+
+#btArchitecture{
+	position: absolute;
+	top: 170px;
+	right:10px;
+	cursor: pointer;
+	
+}
+
+#btamenagements{
+	position:absolute;
+	top:325px;
+	right:10px;
+	cursor: pointer;
+}
+
+#btarchitriad{
+	position: absolute;
+	top:480px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#AT{
+	position: absolute;
+	top:133px;
+	left:52px;
+	z-index: 0;
+	cursor: default;
+		
+}
+#renseignement{
+	position: relative;
+	top:7px;
+	cursor: default;
+}
+
+#boxTextePresArchi{
+	position: relative;
+	left:10px;
+	width: 510px;
+	height:560px;
+	cursor: default;
+}
+
+.left{
+width: 120px;
+  height: 650px;
+ 
+  -webkit-shape-outside: polygon(0 0, 0 100%, 100% 0);
+  shape-outside: polygon(0 0, 0 100%, 100% 0%);
+  float: left;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0%);
+	clip-path: polygon(0 0, 0 100%, 100% 0%);
+}
+
+
+#texte_bas{
+	position: absolute;
+	top:590px;
+	left:-37px;
+	height: 90px;
+	width:970px;
+	
+	z-index: 2;
+	cursor: default;
+}
+
+#imBasArchitriad{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+#imBasCabinetArchitecte{
+	position: absolute;
+	top:0px;
+	left: 250px;
+}
+
+#imBasArgentan{
+	position: absolute;
+	top: 0px;
+	left:510px;
+}
+
+#imBasMortagne{
+	position: absolute;
+	top:0px;
+	left:720px;
+}
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+#cercleHaut{
+	position: absolute;
+	top:105px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+}
+
+#cercleCentre{
+	position: absolute;
+	top:260px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+
+}
+
+#cercleBas{
+	position: absolute;
+	top:415px;
+	right:0px;
+	background:#e3e9ec;
+  	border-radius:50%;
+  	width:70px;
+  	height:140px;
+  	border-radius: 70px 0px 0px 70px;
+	
+}
+#ligneTitre{
+	position: relative;
+	top:100px;
+	left: 120px;
+	width: 410px;
+	height: 20px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #adbcc4;
+	cursor:pointer;
+	
+}
+
+#zoneFormulaire{
+	
+position:absolute;
+	left:0px;
+	top:0px;
+	width:520px;
+	height: 560px;
+	
+}
+#cercleMadame{
+	position:absolute;
+	top:1.5px;
+	width: 10px;
+	height: 10px;
+	background: #e3e8ec;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float:left;
+	
+	
+}
+
+#madame{
+	position: absolute;
+	left:20px;
+	top:0px;
+	float:left;
+	z-index: 3;
+
+	
+}
+
+#cercleMademoiselle{
+	position:absolute;
+	left:105px;
+	top:1.5px;
+	width: 10px;
+	height: 10px;
+	background: #e3e9ec;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	
+	
+	
+}
+
+#mademoiselle{
+	position: absolute;
+	top:0px;
+	left:125px;
+	float:left;
+	
+	
+}
+
+#cercleMonsieur{
+	position:absolute;
+	top:1.5px;
+	left:250px;
+	width: 10px;
+	height: 10px;
+	
+	background: #e3e8ec;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float:left;
+	
+}
+
+#monsieur{
+	position: absolute;
+	left: 270px;
+	top:0px;
+	float:left;
+	
+}
+
+#titreNom{
+	position: absolute;
+	left: 110px;
+	top: 150px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#titrePrenom{
+	position: absolute;
+	left: 103px;
+	top: 185px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#titreEmail{
+	position: absolute;
+	left: 96px;
+	top: 220px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#titreTelephone{
+	position: absolute;
+	left: 89px;
+	top: 255px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#titreSujet{
+	position: absolute;
+	left: 82px;
+	top: 290px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#titreMessage{
+	position: absolute;
+	left: 70px;
+	top: 360px;
+	font-family: Helvetica Neue LT Std;
+	font-size: 15px;
+	color: #e05015;
+}
+
+#formNom{
+	position: absolute;
+	top: 149px;
+	left:160px;
+	width: 348px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formPrenom{
+	position: absolute;
+	top: 184px;
+	left:180px;
+	width: 328px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formEmail{
+	position: absolute;
+	top: 219px;
+	left:160px;
+	width: 348px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formTelephone{
+	position: absolute;
+	top: 254px;
+	left:180px;
+	width: 328px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formSujet{
+	position: absolute;
+	top: 289px;
+	left:150px;
+	width: 358px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+}
+
+#formMessage{
+	position: absolute;
+	top: 355px;
+	left: 150px;
+	width: 358px;
+	background-color: #e3e9ec;
+	border-width: 0px;
+	height: 107px;
+}
+
+#btEnvoyer{
+	
+	position: absolute;
+	top:480px;
+	right: 80px;
+}
+
+.inputEnvoyer{
+	position:absolute;
+	top:478px;
+	left:670px;
+	width: 250px;
+	height: 20px;
+	border:none;
+	border-width: 0px;
+	-moz-opacity:0.0;
+opacity: 0.0;
+filter:alpha(opacity=0);
+	
+}
+
+#zLeft{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	background-color: black;
+	height: 100%;
+	width: 130px;
+	
+}
+
+#fond{
+	position: relative;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:1100px;
+	min-height: 650px;
+	
+	width: 100%;
+height: 650px;
+}
+#fond_blanc{
+	position: relative;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:1100px;
+	min-height: 650px;
+	
+	width: 100%;
+height: 650px;
+}
+
+#zRight{
+	position: absolute;
+	left: 130px;
+	background-color: white;
+	height: 100%;
+	width: 970px;
+	z-index: 1;
+}
+#traitVertGris{
+	position:absolute;
+	Top:0px;
+	left: 530px;
+	height: 100%;
+	width: 15px;
+	background-color: #e3e8ec;
+	z-index: 0
+		
+}
+
+
+
+
+
+
+@font-face {
+	font-family: 'Designio';
+	src: url('../fonts/DesignioBold.eot');
+	src: url('../fonts/DesignioBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DesignioBold.woff') format('woff'),
+		url('../fonts/DesignioBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue LT Std';
+	src: url('../fonts/HelveticaNeueLTStd-BdCn.eot');
+	src: url('../fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
+		url('../fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica.eot');
+	src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Helvetica.woff') format('woff'),
+		url('../fonts/Helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+a.linky:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.linky:hover{
+	color: #e05015;
+	text-decoration: none;
+}
+
+
+a.linky{
+	color:white;
+}

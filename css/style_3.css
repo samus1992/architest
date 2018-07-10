@@ -500,6 +500,20 @@ cursor: pointer;}
 
 }
 
+.listeDroite_et{
+position: absolute;
+	left: 565px;
+	top: 216px;
+	width: 348px;
+	height: 363px;
+	color: white;
+	font-size: 0.9em;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+
+
 
 .listeDroite_etabl{
 	position: absolute;
@@ -514,6 +528,21 @@ cursor: pointer;}
 
 }
 
+
+
+.listeDroite_indus
+{
+	position: absolute;
+	left: 554px;
+	top: 233px;
+	width: 418px;
+	height: 312px;
+	color: white;
+	font-size: 0.9em;
+	overflow: hidden!important;;
+	overflow-y: scroll;
+
+}
 
 
 /*a{

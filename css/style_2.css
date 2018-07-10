@@ -488,6 +488,30 @@ img.btArchitectureV2 :hover{
 }
 
 
+.btArchitecture_cont{
+	position: absolute;
+	top: 170px;
+	right:10px;
+	cursor: pointer;
+	
+}
+
+.btamenagements_cont{
+	position:absolute;
+	top:325px;
+	right:10px;
+	cursor: pointer;
+}
+
+.btarchitriad_cont{
+	position: absolute;
+	top:480px;
+	right: 10px;
+	cursor: pointer;
+}
+
+
+
 #fond{
 	position: relative;
 	margin-left: auto;
@@ -523,7 +547,7 @@ height: 650px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
-	background: black;
+	background: white;
 }
 
 #cercleMortagne{
@@ -533,7 +557,7 @@ height: 650px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
-	background: black;
+	background: white;
 }
 
 #cercleArgentan{
@@ -543,7 +567,7 @@ height: 650px;
 	width: 15px;
 	height: 15px;
 	border-radius: 20px;
-	background: black;
+	background: white;
 }
 
 #traitVertGrisFonce{
@@ -658,6 +682,21 @@ cursor: pointer;}
 
 }
 
+
+.listeDroite_indus
+{
+	position: absolute;
+	left: 554px;
+	top: 233px;
+	width: 418px;
+	height: 312px;
+	color: white;
+	font-size: 0.9em;
+	overflow: hidden!important;;
+	overflow-y: scroll;
+
+}
+
 /*a{
 	text-decoration: none;
 	color:#b1b2b4;
@@ -763,15 +802,6 @@ a.list_two:hover{
 }
 
 
-a.diags:hover{
-	color: #000;
-	text-decoration: none;
-}
-
-a.diags:visited, a.diags{
-	color: #fff;
-	
-}
 
 
 .hovery:hover{
@@ -813,4 +843,15 @@ a.hoverText :hover{
 .actived:hover{
 	color:#FF7700 ;
 	text-decoration: none;
+}
+
+
+a.#key:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+a.span.diags:visited, a.diags{
+	color: #fff;
+	
 }

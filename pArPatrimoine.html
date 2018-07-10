@@ -2,67 +2,57 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <title>ArchiTriad</title>
-<LINK rel=STYLESHEET href="pages_fond_couleur.css" type="text/css">
-<LINK rel=STYLESHEET href="fCssFonts.css" type="text/css">
-<LINK rel=STYLESHEET href="cssArPatrimoine.css" type="text/css">
-<script type="text/javascript">
-function MM_changeProp(objId,x,theProp,theValue) { //v9.0
-  var obj = null; with (document){ if (getElementById)
-  obj = getElementById(objId); }
-  if (obj){
-    if (theValue == true || theValue == false)
-      eval("obj.style."+theProp+"="+theValue);
-    else eval("obj.style."+theProp+"='"+theValue+"'");
-  }
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
 
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-function MM_goToURL() { //v3.0
-  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
-  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
-}
-</script>
+<link rel="shortcut icon" href="images/at.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/style_2.css">
+<script type="text/javascript" src="script.js"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+
 </head>
 
 <body>
 
-<div id=fond>
-<div id=imageFond>
+
+<div class="container">
+
+<div id="fond">
+<div id="imageFond">
   <img src="images/fond/fondPageArchitecture.gif" width="1100" height="650" alt=""/> </div>
  
   <div id="zLeft">
-  <div id="logoLeftCarre" onClick="MM_goToURL('parent','index.html');return document.MM_returnValue">
-		  <img src="images/logoCarreBlanc.gif" width="85" height="85" alt=""/></div>
-		<div id="btcontact" onClick="MM_goToURL('parent','pContact.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btcontact','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btcontact','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
+  <div id="logoLeftCarre">
+	  <!--<div id="logoLeftCarre" onClick="MM_goToURL('parent','index.html');return document.MM_returnValue">-->
+		 <a href="index.html"><img src="images/logoCarreBlanc.gif" width="85" height="85" alt=""/></a> </div>
+	  
+	<!-- links top-left -->
+			  
+			<div id="btcontact" class="linky" > 
+			  <a class="diags str" href="pContact.html"> 
+				  <span class="font-weight-bold"> Contact </span> 
+			  </a>
 			</div>
-		<div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceMortagne','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceMortagne','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Mortagne
-	</div>
-		<div id="btAgenceArgentan" onClick="MM_goToURL('parent','pAgenceArgentan.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceArgentan','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceArgentan','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Argentan
-    </div>
+	  
+			  
+			  
+			<div id="btAgenceMortagne" >
+				<a class="diags"  href="pAgenceMortagne.html">
+				 <span class="font-weight-bold"> Agence&nbsp;Mortagne</span>
+				</a>
+			</div>
+			  
+			<div id="btAgenceArgentan">
+				 <a class="diags"  href="pAgenceArgentan.html">
+					 <span class="font-weight-bold"> Agence&nbsp;Argentan</span>
+				</a>
+		    </div><!--  end links top left -->
+	  
+	  
 	<div id="cercleContact">
 	  </div>
     <div id="cercleMortagne">
@@ -73,63 +63,72 @@ function MM_goToURL() { //v3.0
 	<div id="zCenter">
 	</div>	
   <div id="zRight">
-  <div id=boxTextePresArchi>
-  	<div class="left"></div>
-  	<div><br><br><br><br><br><br>
-	  </div>
-  	<div id="titreHabitation" onClick="MM_goToURL('parent','pArHabitation.html');return document.MM_returnValue">
-  	HABITATION
-	  </div>
-	  <div>
-	  <br><br>
-	  </div>
-	  <div id="titreEtablissements" onClick="MM_goToURL('parent','pArEtablissement.html');return document.MM_returnValue">
-	  ETABLISSEMENTS&nbsp;CULTURELS,&nbsp;SOCIAUX<br>ET&nbsp;SCOLAIRES
-	  </div>
-	  <div><br><br>
-	  </div>
-	  <div id="titreIndustries" onClick="MM_goToURL('parent','pArIndustrie.html');return document.MM_returnValue">
-	  INDUSTRIES,&nbsp;BUREAUX&nbsp;ET&nbsp;COMMERCES
-	  </div>
-	  <div><br><br>
-	  </div>
-	  <div id="titrePatrimoine" onClick="MM_goToURL('parent','pArPatrimoine.html');return document.MM_returnValue">
-	  PATRIMOINE
-	  </div>
-	  <div>
-	  <br><br>
-	  </div>
-	  <div id="titreDivers" onClick="MM_goToURL('parent','pArdivers.html');return document.MM_returnValue">
-	  DIVERS
-	  </div>
-	  </div>
-	  	
-	  <div id="listeDroite">
-	 
-		  <a href="pProjet41.html">- Aménagement des halles de Bonnetable en école de danse et de musique (72)</a><br>
-		  <a href="pProjet42.html">- Aménagement d'un pôle intergénérationnel dans la halle au blé - Sées (61)</a><br>
-		  <a href="pProjet43.html">- Aménagement de la médiathèque dans la halle aux grains ville de Mortagne au Perche (61)</a><br>
-		  <a href="pProjet44.html">- Siège de l'Association des Chasseurs de l'Orne à Silly-en-Gouffern (61)</a><br>
-		  <a href="pProjet45.html">- Construction d'un restaurant scolaire pour l'école Pierre Rasse Mathieu (14)</a><br>
-		  <a href="pProjet46.html">- Aménagement et extension de la salle de la jeunesse de Montabard en centre culturel rural (61)</a><br>
-		  <a href="pProjet47.html">- Restauration des charpentes, couverture et maçonnerie d'une église - Neufchatel en Saosnois (72)</a><br>
-		  <a href="pProjet48.html">- Aménagement de la médiathèque dans la halle aux grains ville de Mortagne au Perche (61)</a><br>
-		  <a href="pProjet49.html">- Restructuration de 6 bâtiments pour l'aménagement de 7 gîtes - La Chapelle Montligeon (61)</a><br>
-	  </div>
+ 	  <div id="boxTextePresArchi">  <!--text menu  -->
+					<div class="left"></div>
+					<div><br><br><br><br><br><br>
+					  </div>
+			  
+			  
+					<div id="titreHabitationGris">
+							<div ><h6><a  class="list_two" href="pArHabitation.html">HABITATION </a></h6></div>
+					</div>
+			  
+					  <div id="titreEtablissements" class="mt-3">
+						  <h6><span > 
+							  <a  class="list_two" href="pArEtablissement.html">ETABLISSEMENTS&nbsp;CULTURELS,&nbsp;SOCIAUX<br>ET&nbsp;SCOLAIRES  </a>
+							  </span>
+						  </h6>
+
+					  </div>
+			  
+			  
+					  
+					  <div id="titreIndustries" class="mt-3">
+						<h6><span>
+							<a class="list_two"   href="pArIndustrie.html"> INDUSTRIES,&nbsp;BUREAUX&nbsp;ET&nbsp;COMMERCES  </a>
+							</span>
+						</h6>
+					  </div>
+					 
+					  <div id="titrePatrimoine" class="mt-3">
+					 	<h6><span>
+							<a id="aktv" class="list_two"  href="pArPatrimoine.html"> PATRIMOINE  </a>
+							</span>
+						</h6>
+					  </div>
+					  
+					  <div id="titreDivers" class="mt-3">
+						 <h6><span> 
+							 <a  class="list_two"  href="pArdivers.html"> DIVERS  </a>
+							 </span>
+						</h6>
+					  </div>
+		</div> <!-- end text menu  -->
+	  
+	  <div class="listeDroite_etabl">
+	  	     
+
+		  <a class="list_two" href="patrimonine/pProjet41.html">• Aménagement des halles de Bonnetable en école de danse et de musique (72)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet42.html">• Aménagement d'un pôle intergénérationnel dans la halle au blé - Sées (61)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet43.html">• Aménagement de la médiathèque dans la halle aux grains ville de Mortagne au Perche (61)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet44.html">• Siège de l'Association des Chasseurs de l'Orne à Silly-en-Gouffern (61)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet45.html">• Construction d'un restaurant scolaire pour l'école Pierre Rasse Mathieu (14)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet46.html">• Aménagement et extension de la salle de la jeunesse de Montabard en centre culturel rural (61)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet47.html">• Restauration des charpentes, couverture et maçonnerie d'une église - Neufchatel en Saosnois (72)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet48.html">• Aménagement de la médiathèque dans la halle aux grains ville de Mortagne au Perche (61)</a><br>
+		  <a class="list_two" href="patrimonine/pProjet49.html">• Restructuration de 6 bâtiments pour l'aménagement de 7 gîtes - La Chapelle Montligeon (61)</a><br>
+
+	  	 
+      </div>
 	
-		<div id="btArchitecture"
-		onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
-		onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
-	    <img src="images/imArchitectureBlanc.gif" width="279" height="18" alt=""/> </div>
-		<div id="btamenagements"
-	    onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
-		  <img src="images/imAmenagementGris.gif" width="279" height="18" alt=""/> 
+		<div id="btArchitecture">
+	    <a href="pArchitecture.html"><img src="images/imArchitectureBlanc.gif" width="279" height="18" alt=""/></a> </div>
+		<div id="btamenagements">
+		  <img src="images/imAmenagementBlanc.gif" width="279" height="18" alt=""/> 
 		  </div>
 			
-		<div id="btarchitriad" 
-		onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
-		onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
-		  <img src="images/imArchiTriadGris.gif" width="279" height="18" alt=""/>
+		<div id="btarchitriad" >
+		  <img src="images/imArchitriadBlanc.gif" width="279" height="18" alt=""/>
 			</div>
 		<div id="texte_bas">
 		<div id="imBasArchitriad">
@@ -145,10 +144,10 @@ function MM_goToURL() { //v3.0
 		  </div>
 		<div id="traitNoirBas">
 		  </div>
-		<div id="cercleHaut" 
-			onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
-			onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
+		<div id="cercleHaut" class="cercleActive">
 			</div>
+		  
+		  
 		<div id="cercleCentre"			        
 		onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
 			</div>
@@ -157,21 +156,7 @@ function MM_goToURL() { //v3.0
 			onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
 		  </div>
 	  </div>
-		
-			
-			
-
-		
-			
-
-
-
-
-
-				
-			
-			
-	
+	</div>
 		
 </div>
 
