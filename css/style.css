@@ -161,10 +161,13 @@ height: 650px;
 	
 }
 
+
+
+
 #btcontact{
 	position: absolute;
-	top: 74px;
-	left: 20px;
+	top: 68px;
+    left: 28px;
 	cursor: pointer;
 	font-size: 12px;
 	color: white;
@@ -179,8 +182,8 @@ height: 650px;
 
 #btAgenceMortagne{
 	position: absolute;
-	top: 46px;
-	left: 19px;
+	   top: 39px;
+    left: 28px;
 	cursor: pointer;
 	font-size: 12px;
 	color: white;
@@ -195,8 +198,8 @@ height: 650px;
 
 #btAgenceArgentan{
 	position: absolute;
-	top: 48px;
-	left: 41px;
+	    top: 41px;
+    left: 51px;
 	cursor: pointer;
 	font-size: 12px;
 	color: white;
@@ -207,6 +210,24 @@ height: 650px;
 	-moz-transform: rotate(-79deg); /* Firefox */
 	-webkit-transform: rotate(-79deg); /* Safari et Chrome */
 	-o-transform: rotate(-79deg); /* Opera */
+}
+
+
+
+
+a.linky:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.linky:hover{
+	color: #e05015;
+	text-decoration: none;
+}
+
+
+a.linky{
+	color:white;
 }
 
 #zCenter{
@@ -220,6 +241,15 @@ height: 650px;
 	z-index: 1;
 	cursor: default;
 }
+
+#zCenter_agen{
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	height: 100%;
+	width: 100px;
+	z-index: 2;
+	cursor: default;}
 
 #triangle{
 	border-color: #000000 transparent transparent #000000;

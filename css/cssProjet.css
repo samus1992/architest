@@ -1,3 +1,6 @@
+
+
+
 #triangleProject{
 	border-color: #000000 transparent transparent #000000;
     border-style: solid;
@@ -58,15 +61,18 @@ width: 65px;
 	position: relative;
 	width: 205px;
 	height: 350px;
+	font-family: 'Dosis', sans-serif;
 }
 
 #TexteProject_test{
 	position: relative;
 	width: 205px;
-	height: 350px;
-	font-size: 11px;
-	font-family: "Helvetica Neue LT Std";
+	height: 380px;
+	font-size: 1em;
+	
 }
+
+
 
 #cadreImageBis{
 	position:absolute;
@@ -75,7 +81,7 @@ width: 65px;
 	width:525px;
 	height:390px;
 	background-size: contain;
-	background-image:url("images/p1/p112/p112Im1.gif");
+/*	background-image:url("images/p1/p112/p112Im1.gif");*/
 	z-index: 0;}
 
 
@@ -87,7 +93,7 @@ width: 65px;
 	width:525px;
 	height:390px;
 	background-size: contain;
-	background-image:url("images/p1/p112/p112Im1.gif");
+/*	background-image:url("images/p1/p112/p112Im1.gif");*/
 	z-index: 0;
 	
 	webkit-animation-name: diapo1;
@@ -113,42 +119,6 @@ width: 65px;
 	
 }
 
-/*
-@-webkit-keyframes diapo1{
-	0%{background-image: url(../images/p1/p112/p112Im1.gif);}
-	
-	45%{background-image: url(../images/p1/p112/p112Im1.gif);}
-	50%{background-image: url(../images/p1/p112/p112Im2.gif);}
-	
-	95%{background-image: url(../images/p1/p112/p112Im2.gif);}
-}
-@-moz-keyframes diapo1{
-	0%{background-image: url(../images/p1/p112/p112Im1.gif);}
-	
-	45%{background-image: url(../images/p1/p112/p112Im1.gif);}
-	50%{background-image: url(../images/p1/p112/p112Im2.gif);}
-	
-	95%{background-image: url(../images/p1/p112/p112Im2.gif);}
-}
-@keyframes diapo1{
-	0%{background-image: url(../images/p1/p112/p112Im1.gif);}
-	13%{background-image: url(../images/p1/p112/p112Im1.gif);}
-	
-	17%{background-image: url(../images/p1/p112/p112Im2.gif);}
-	30%{background-image: url(../images/p1/p112/p112Im2.gif);}
-	
-	34%{background-image: url(../images/p1/p112/p112Im3.gif);}
-	47%{background-image: url(../images/p1/p112/p112Im3.gif);}
-
-	51%{background-image: url(../images/p1/p112/p112Im4.gif);}
-	64%{background-image: url(../images/p1/p112/p112Im4.gif);}
-	
-	68%{background-image: url(../images/p1/p112/p112Im5.gif);}
-	81%{background-image: url(../images/p1/p112/p112Im5.gif);}
-	
-	85%{background-image: url(../images/p1/p112/p112Im6.gif);}
-	96%{background-image: url(../images/p1/p112/p112Im6.gif);}
-}*/
 
 #btRunStop{
 	position:absolute;
@@ -179,15 +149,6 @@ width: 65px;
 	z-index: 0;
 }
 
-#cercleIm1{
-	position: absolute;
-	top:530px;
-	left:350px;
-	width: 15px;
-    height: 15px;
-    border-radius: 20px;
-    background:#adbcc4;
-}
 
 #cercleIm1{
 	position: absolute;
@@ -242,4 +203,16 @@ width: 65px;
     height: 15px;
     border-radius: 20px;
     background:#adbcc4;
+}
+
+
+#TexteProject_test_2{
+	position: relative;
+	width: 205px;
+	height: 380px;
+	justify-content: left;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+
+	
 }

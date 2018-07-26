@@ -1,52 +1,26 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>ArchiTriad</title>
-<LINK rel=STYLESHEET href="pages_fond_couleur.css" type="text/css">
-<LINK rel=STYLESHEET href="fCssFonts.css" type="text/css">
-<LINK rel=STYLESHEET href="cssAgence.css" type="text/css">
-<LINK rel=STYLESHEET href="cssProjet.css" type="text/css">
-<script type="text/javascript">
-function MM_changeProp(objId,x,theProp,theValue) { //v9.0
-  var obj = null; with (document){ if (getElementById)
-  obj = getElementById(objId); }
-  if (obj){
-    if (theValue == true || theValue == false)
-      eval("obj.style."+theProp+"="+theValue);
-    else eval("obj.style."+theProp+"='"+theValue+"'");
-  }
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
+    <title>ArchiTriad</title>
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/at.ico" type="image/x-icon">
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-function MM_goToURL() { //v3.0
-  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
-  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
-}
-</script>
-</head>
+<link rel="stylesheet" type="text/css" href="css/agences.css">
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
 
-<body onLoad="MM_preloadImages('images/p1/p112/p112Im2.gif')">
+  <script type="text/javascript" src="script.js"></script>
+
+
+ </head>
+
+<body>
+
+<div class="container">
 
 <div id=fond>
 <div id=imageFond>
@@ -58,15 +32,22 @@ function MM_goToURL() { //v3.0
   
   <div id="logoLeftCarre" onClick="MM_goToURL('parent','index.html');return document.MM_returnValue">
 		  <img src="images/logoCarreBlanc.gif" width="85" height="85" alt=""/></div>
-		<div id="btcontact" onClick="MM_goToURL('parent','pContact.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btcontact','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btcontact','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
-	</div>
-		<div id="btAgenceMortagne" onClick="MM_goToURL('parent','pAgenceMortagne.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceMortagne','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceMortagne','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Mortagne
-	</div>
-		<div id="btAgenceArgentan" onClick="MM_goToURL('parent','pAgenceArgentan.html');return document.MM_returnValue" onMouseOver="MM_changeProp('btAgenceArgentan','','color','#adbcc4','DIV')" onMouseOut="MM_changeProp('btAgenceArgentan','','color','#FFFFFF','DIV')">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agence&nbsp;Argentan
+
+
+		    <div id="btcontact" class="linky" > 
+            <a class="linky" href="pContact.html">&nbsp;Contact</a>
+                    </div>
+      
+                <div id="btAgenceMortagne" >
+         <a class="linky"  href="pAgenceMortagne.html"> Agence&nbsp;Mortagne</a>
     </div>
+        <div id="btAgenceArgentan">
+                 <a class="linky"  href="pAgenceArgentan.html"> Agence&nbsp;Argentan</a>
+    </div>
+
+
+
+    
 	<div id="cercleContact">
     </div>
     <div id="cercleMortagne">
@@ -88,17 +69,13 @@ function MM_goToURL() { //v3.0
 </div>
 	<div id="zCenter">
 	<div id="titreProjet"><br><br>
-		<span style="color:#e05015 ; font-family:Helvetica Neue LT Std; font-size: 1.2em">AGENCE Archi-TRIAD MORTAGNE-AU-PERCHE</span><br><br>
-		<span style="color:#e3e8ec; font-family:Helvetica;font-size: 0.8em ">
-			6 rue de la Comédie, 61400 Mortagne-au-Perche<br><br>
-			Téléphone : 02 33 85 26 30  -  Mail : mortagne@architriad.fr
-			
-		</span>
-		</div>
-	
-	
-	
-	
+		 <span class="title_orange">AGENCE Archi-TRIAD MORTAGNE-AU-PERCHE</span><br>
+		<span class="sousTitle" >
+			6 rue de la Comédie, 61400 Mortagne-au-Perche <br>
+			Téléphone : 02 33 85 26 30 - Mail : mortagne@architriad.fr
+
+</span>
+
 	
 	
 	
@@ -106,63 +83,51 @@ function MM_goToURL() { //v3.0
   </div>	
   <div id="zRight">
   
+
+ <!-- text circles  -->
+				   <div class="btArchitectureV2 hover" >
+					<a href="pArchitecture.html">
+             <img src="images/imArchitectureBlanc.gif" width="279" height="18" alt="" /></a>
+                </div>
+
+                <div class="btamenagementsV2" onMouseOver="MM_changeProp('cercleCentre','','background','#df5225','DIV')" onMouseOut="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')">
+                    <img src="images/imAmenagementBlanc.gif" width="279" height="18" alt="" />
+                </div>
+
+                <div class="btarchitriadV2" >
+                   <a href="index.html"> <img src="images/imArchitriadBlanc.gif" width="279" height="18" alt="" /></a>
+                </div>
+			  <!-- end text circles  -->
+			
+			  
+			   <!--  circles  -->
+			  
+					<a href="pArchitecture.html"><div class="cercleHautV2 hovery" >	
+						
+					</div> </a>
+			  
+				<div class="cercleCentreV2 hovery ">
+					<a href="#"> </a>
+					</div>
+			  
+			  
+				<a href="index.html"><div class="cercleBasV2 hovery">
+					
+				  </div></a>
+			  
+			   <!--end  circles  -->
+
+
 	  	
 	  
-	
-		<div id="btArchitecture" onClick="MM_goToURL('parent','pArchitecture.html');return document.MM_returnValue"
-		onMouseOver="MM_changeProp('cercleHaut','','background','##e3e9ec','DIV')"
-		onMouseOut="MM_changeProp('cercleHaut','','background','#51646e','DIV')">
-	    <img src="images/imArchitectureGris.gif" width="279" height="18" alt=""/> </div>
-		<div id="btamenagements"
-	    onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
-		  <img src="images/imAmenagementGris.gif" width="279" height="18" alt=""/> 
-    </div>
-			
-		<div id="btarchitriad" 
-		onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
-		onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
-		  <img src="images/imArchiTriadGris.gif" width="279" height="18" alt=""/>
-	</div>
-		<div id="texte_bas">
-		<div id="imBasArchitriad">
-			<img src="images/imArchitriadBlanc.gif" width="296" height="20" alt=""/> </div>
-		<div id="imBasCabinetArchitecte">
-		  <img src="images/imCabinetArchitecteBlanc.gif" width="296" height="20" alt=""/> </div>
-		<div id="imBasArgentan">
-		  <img src="images/imArgentanBlanc.gif" width="296" height="20" alt=""/> </div>
-		<div id="imBasMortagne">
-		  <img src="images/imMortagneBlanc.gif" width="296" height="20" alt=""/> </div>
-		  </div>
 		<div id="traitVertGrisFonce">
     </div>
 		<div id="traitNoirBas">
     </div>
-		<div id="cercleHaut" 
-			onMouseOver="MM_changeProp('cercleHaut','','background','#ffffff','DIV')"
-			onMouseOut="MM_changeProp('cercleHaut','','background','#ffffff','DIV')">
-	</div>
-		<div id="cercleCentre"			        
-		onMouseOver="MM_changeProp('cercleCentre','','background','#e3e9ec','DIV')"	onMouseOut="MM_changeProp('cercleCentre','','background','#51646e','DIV')">
-	</div>
-		<div id="cercleBas"
-			onMouseOver="MM_changeProp('cercleBas','','background','#e3e9ec','DIV')"
-			onMouseOut="MM_changeProp('cercleBas','','background','#51646e','DIV')">
-    </div>
+		
   </div>
-		
-			
-			
 
-		
-			
-
-
-
-
-
-				
-			
-			
+</div>
 	
 		
 </div>
