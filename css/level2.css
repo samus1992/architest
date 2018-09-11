@@ -727,8 +727,7 @@ p {
         padding: 8px;
     }
     .container-fluid {
-        background-size: cover;
-        background-repeat: no-repeat;
+
         width: auto;
         height: 750px;
         padding-right: 0%;
