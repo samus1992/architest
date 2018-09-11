@@ -1,0 +1,969 @@
+    /*
+xs = Extra small <576px
+sm = Small ≥576px
+md = Medium ≥768px
+lg = Large ≥992px
+xl = Extra large ≥1200px
+*/
+
+body:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: #999;
+    background: #2C2C2C;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+}
+    
+    @font-face {
+        font-family: "Designio";
+        src: url('../fonts/DesignioBold.eot');
+        src: url('../fonts/DesignioBold.eot?#iefix') format('embedded-opentype'), url('../fonts/DesignioBold.woff') format('woff'), url('../fonts/DesignioBold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "HelveticaNeue";
+        src: url('../fonts/HelveticaNeueLTStd-BdCn.eot');
+        src: url('../fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('../fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "Helvetica";
+        src: url('../fonts/Helvetica.eot');
+        src: url('../fonts/Helvetica.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica.woff') format('woff'), url('../fonts/Helvetica.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "dots";
+        src: url('../fonts/jd_lcd_rounded.eot');
+        src: url('../fonts/jd_lcd_rounded.eot?#iefix') format('embedded-opentype'), url('../fonts/jd_lcd_rounded.woff') format('woff'), url('../fonts/jd_lcd_rounded.ttf') format('truetype'), url('../fonts/jd_lcd_rounded.svg#JD-LCD-Rounded') format('svg');
+    }
+    
+    .textbox {
+        /* max-height: 1400px; */
+        text-align: justify;
+        /* background-color: #fff; */
+    }
+    
+    .title {
+        font-family: "HelveticaNeue";
+        color: #adbcc4;
+        font-size: 25px;
+        margin-top: 5%;
+        padding-top: 25px;
+    }
+    
+    .textBdy {
+        font-family: "Helvetica";
+        font-size: 15px;
+        color: #000;
+    }
+    
+    .emph {
+        font-family: "HelveticaNeue";
+        color: #adbcc4;
+        font-size: 14px;
+    }
+    
+    .rensig {
+        font-family: "HelveticaNeue";
+        color: #adbcc4;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .dots {
+        display: inline;
+    }
+    
+    .footy {
+        justify-content: center;
+        text-align: center;
+        font-family: "dots";
+    }
+    
+    hr.linee {
+        height: 10px;
+        width: auto;
+        border: 0;
+        box-shadow: 0 10px 10px -10px #8c8b8b inset;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
+    a.linky:visited {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a.linky:hover {
+        color: #e05015;
+        text-decoration: none;
+    }
+    
+    a.linky {
+        color: white;
+    }
+    
+    a.link_circles:visited {
+        color: dc4615;
+        text-decoration: none;
+    }
+    
+    a.link_circles:hover {
+        color: #e05015;
+        text-decoration: none;
+    }
+    
+    a.link_circles {
+        color: #e05015;
+    }
+    
+    li.rady:hover {
+        background-color: #dc4615;
+        text-decoration: none;
+    }
+    /* media queries  */
+    /*// Extra small devices (portrait phones, less than 576px)*/
+    
+    @media (max-width: 575.98px) {
+        body:before {
+            content: "@Media info: 575 extra small ";
+        }
+        body {
+            background-color: #000;
+        }
+        .menuleft {
+            display: none;
+        }
+        .logoIzq {
+            display: none;
+        }
+        img.logoIzq {
+            display: none;
+        }
+        div#izq {
+            display: none;
+        }
+        ul.flex-circles {
+            display: none;
+        }
+        .textbox {
+            background-color: #fff;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .flex-footy {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-flex-flow: column;
+            justify-content: space-around;
+        }
+        .flex-footy-text {
+            padding: 0px;
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            color: #dc4615;
+            font-size: 2.5em;
+            text-align: center;
+            font-family: "dots";
+        }
+        hr.linee {
+            margin-bottom: 5px;
+        }
+    }
+    /*// Small devices (landscape phones, 576px and up)*/
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        body:before {
+            content: "@Media info: 576 and 767.98  small ";
+        }
+        body {
+            background-color: #000;
+        }
+        .menuleft {
+            display: none;
+        }
+        .logoIzq {
+            display: none;
+        }
+        img.logoIzq {
+            display: none;
+        }
+        div#izq {
+            display: none;
+        }
+        ul.flex-circles {
+            display: none;
+        }
+        .textbox {
+            background-color: #fff;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .flex-footy {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-flex-flow: column;
+            justify-content: space-around;
+        }
+        .flex-footy-text {
+            padding: 0px;
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            color: #dc4615;
+            font-size: 2.5em;
+            text-align: center;
+            font-family: "dots";
+        }
+        hr.linee {
+            margin-bottom: 5px;
+        }
+    }
+    /* // Medium devices (tablets, 768px and up)
+*/
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        body:before {
+            content: "@Media info: 768 and 991.98 medium ";
+        }
+        body {
+            background-color: #000;
+        }
+        .menuleft {
+            display: none;
+        }
+        .logoIzq {
+            display: none;
+        }
+        img.logoIzq {
+            display: none;
+        }
+        div#izq {
+            display: none;
+        }
+        ul.flex-circles {
+            display: none;
+        }
+        .textbox {
+            background-color: #fff;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .flex-footy {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-flex-flow: column;
+            justify-content: space-around;
+        }
+        .flex-footy-text {
+            padding: 0px;
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            color: #dc4615;
+            font-size: 3.3em;
+            text-align: center;
+            font-family: "dots";
+        }
+        hr.linee {
+            margin-bottom: 5px;
+        }
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    /* laptops */
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        body:before {
+            content: "@Media info: 992 and 1199.98  laptops ";
+        }
+        body {
+            background-color: #000;
+        }
+        .navbar {
+            display: none;
+        }
+        .textbox {
+            padding-left: 14%;
+            margin-top: 5%;
+            padding-top: 5px;
+            padding-right: 300px;
+        }
+        .container-fluid {
+            background-image: url("../img/1024x1080_clean.svg");
+            background-color: #fff;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: auto;
+            height: auto;
+            /* margin-right: 3%; */
+            padding-right: 0%;
+        }
+        .menuleft {
+            float: left;
+            color: #fff;
+        }
+        .logoIzq {
+            float: left;
+            position: absolute;
+            top: 234px;
+            left: 15px;
+        }
+        img.logoIzq {
+            width: auto;
+            height: 400px;
+        }
+        .linkContact {
+            float: left;
+            position: absolute;
+            top: 198px;
+            left: 16px;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkMortagne {
+            float: left;
+            position: absolute;
+            top: 171px;
+            left: 12px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkArgentan {
+            float: left;
+            position: absolute;
+            top: 172px;
+            left: 32px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .flex-circles {
+            margin-top: 3%!important;
+            padding-top: 4%;
+            float: right;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-flex-flow: column wrap;
+            justify-content: space-around;
+        }
+        .flex-text {
+            background: #dfe6e9;
+            border-radius: 70px 0px 0px 70px;
+            padding: 0px;
+            width: 70px;
+            height: 140px;
+            margin-top: 10px;
+            line-height: 150px;
+            color: #f26101;
+            font-size: 2em;
+            text-align: left;
+            font-family: "dots";
+        }
+        .top {
+            text-indent: -145px;
+        }
+        .mid {
+            text-indent: -135px;
+        }
+        .bott {
+            text-indent: -135px;
+            padding-bottom: 4%!important;
+        }
+        .flex-footy {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: row;
+            -webkit-flex-flow: row;
+            justify-content: space-around;
+        }
+        .flex-footy-text {
+            padding: 0px;
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            color: black;
+            font-size: 2em;
+            text-align: center;
+            font-family: "dots";
+        }
+        .first {
+            margin-left: 73px;
+        }
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    
+    @media (min-width: 1200px) and (max-width: 1439.9px) {
+        body:before {
+            content: "@Media info: 1200 and 1439.9 large desktops ";
+        }
+        body {
+            background-color: black;
+        }
+        .navbar {
+            display: none;
+        }
+        .textbox {
+            padding-left: 14%;
+            margin-top: 5%;
+            padding-top: 5px;
+            padding-right: 300px;
+        }
+        .container-fluid {
+            background-image: url("../img/1024x1080_clean.svg");
+            background-color: #fff;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: auto;
+            height: auto;
+            /* margin-right: 3%; */
+            padding-right: 0%;
+        }
+        .menuleft {
+            float: left;
+            color: #fff;
+        }
+        .logoIzq {
+            float: left;
+            position: absolute;
+            top: 234px;
+            left: 15px;
+        }
+        img.logoIzq {
+            width: auto;
+            height: 400px;
+        }
+        .linkContact {
+            float: left;
+            position: absolute;
+            top: 198px;
+            left: 16px;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkMortagne {
+            float: left;
+            position: absolute;
+            top: 171px;
+            left: 12px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkArgentan {
+            float: left;
+            position: absolute;
+            top: 172px;
+            left: 32px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .flex-circles {
+            margin-top: 3%!important;
+            padding-top: 4%;
+            float: right;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-flex-flow: column wrap;
+            justify-content: space-around;
+        }
+        .flex-text {
+            background: #dfe6e9;
+            border-radius: 70px 0px 0px 70px;
+            padding: 0px;
+            width: 70px;
+            height: 140px;
+            margin-top: 10px;
+            line-height: 150px;
+            color: #f26101;
+            font-size: 1.7em;
+            text-align: left;
+            font-family: "dots";
+        }
+        .top {
+            text-indent: -123px;
+        }
+        .mid {
+            text-indent: -115px;
+        }
+        .bott {
+            text-indent: -115px;
+            padding-bottom: 4%!important;
+        }
+        .flex-footy {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: row;
+            -webkit-flex-flow: row;
+            justify-content: space-around;
+        }
+        .flex-footy-text {
+            padding: 0px;
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            color: black;
+            font-size: 2em;
+            text-align: center;
+            font-family: "dots";
+        }
+        .first {
+            margin-left: 73px;
+        }
+    }
+    /* 1440 x 1080p */
+    /* @media (width: 1440px) and ( height: 1080px) { */
+    
+    @media (min-width:1440px) {
+        body:before {
+            content: "@Media info: 1440px  ";
+        }
+        body {
+            background-color: #000;
+        }
+        .navbar {
+            display: none;
+        }
+        .textbox {
+            padding-left: 14%;
+            margin-top: 5%;
+            padding-top: 5px;
+            padding-right: 300px;
+        }
+        .container-fluid {
+            background-image: url("../img/2650x1440retin_clean.svg");
+            background-color: #fff;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: auto;
+            height: auto;
+            /* margin-right: 3%; */
+            padding-right: 0%;
+        }
+        .menuleft {
+            float: left;
+            color: #fff;
+        }
+        .logoIzq {
+            float: left;
+            position: absolute;
+            top: 234px;
+            left: 15px;
+        }
+        img.logoIzq {
+            width: auto;
+            height: 400px;
+        }
+        .linkContact {
+            float: left;
+            position: absolute;
+            top: 198px;
+            left: 16px;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkMortagne {
+            float: left;
+            position: absolute;
+            top: 171px;
+            left: 12px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkArgentan {
+            float: left;
+            position: absolute;
+            top: 172px;
+            left: 32px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .flex-circles {
+            margin-top: 3%!important;
+            padding-top: 4%;
+            float: right;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-flex-flow: column wrap;
+            justify-content: space-around;
+        }
+        .flex-text {
+            background: #dfe6e9;
+            border-radius: 70px 0px 0px 70px;
+            padding: 0px;
+            width: 70px;
+            height: 140px;
+            margin-top: 10px;
+            line-height: 150px;
+            color: #f26101;
+            font-size: 1.7em;
+            text-align: left;
+            font-family: "dots";
+        }
+        .top {
+            text-indent: -123px;
+        }
+        .mid {
+            text-indent: -115px;
+        }
+        .bott {
+            text-indent: -115px;
+            padding-bottom: 4%!important;
+        }
+        .flex-footy {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: row;
+            -webkit-flex-flow: row;
+            justify-content: space-around;
+        }
+        .flex-footy-text {
+            padding: 0px;
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            color: black;
+            font-size: 3em;
+            text-align: center;
+            font-family: "dots";
+        }
+        .first {
+            margin-left: 73px;
+        }
+    }
+    /* ********** nil ************/
+    
+    @media (min-width: 2560px) {
+        body:before {
+            content: "@Media info: 2560px  very large";
+        }
+        body {
+            background-color: #000;
+        }
+        .navbar {
+            display: none;
+        }
+        .textbox {
+            padding-left: 14%;
+            margin-top: 5%;
+            padding-top: 5px;
+            padding-right: 300px;
+        }
+        .container-fluid {
+            background-image: url("../img/2650x1440retin_clean.svg");
+            background-color: #fff;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: auto;
+            height: auto;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .rensig {
+            font-family: "HelveticaNeue";
+            color: #adbcc4;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .menuleft {
+            float: left;
+            color: #fff;
+        }
+        .logoIzq {
+            float: left;
+            position: absolute;
+            top: 277px;
+            left: 267px;
+        }
+        img.logoIzq {
+            width: auto;
+            height: 400px;
+        }
+        .linkContact {
+            float: left;
+            position: absolute;
+            top: 243px;
+            left: 269px;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkMortagne {
+            float: left;
+            position: absolute;
+            top: 215px;
+            left: 264px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .linkArgentan {
+            float: left;
+            position: absolute;
+            top: 217px;
+            left: 283px;
+            cursor: pointer;
+            font-size: 12px;
+            color: white;
+            /* Rotation du div */
+            transform: rotate(-79deg);
+            -ms-transform: rotate(-79deg);
+            /* Internet Explorer */
+            -moz-transform: rotate(-79deg);
+            /* Firefox */
+            -webkit-transform: rotate(-79deg);
+            /* Safari et Chrome */
+            -o-transform: rotate(-79deg);
+            /* Opera */
+        }
+        .flex-circles {
+            margin-top: 3%!important;
+            padding-top: 4%;
+            float: right;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-flex-flow: column wrap;
+            justify-content: space-around;
+        }
+        .flex-text {
+            background: #dfe6e9;
+            border-radius: 70px 0px 0px 70px;
+            padding: 0px;
+            width: 70px;
+            height: 140px;
+            margin-top: 10px;
+            line-height: 150px;
+            color: #f26101;
+            font-size: 1.7em;
+            text-align: left;
+            font-family: "dots";
+        }
+        .top {
+            text-indent: -123px;
+        }
+        .mid {
+            text-indent: -115px;
+        }
+        .bott {
+            text-indent: -115px;
+            padding-bottom: 4%!important;
+        }
+        .flex-footy {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: row;
+            -webkit-flex-flow: row;
+            justify-content: space-around;
+        }
+        .flex-footy-text {
+            padding: 0px;
+            width: auto;
+            height: auto;
+            margin-top: 10px;
+            color: black;
+            font-size: 3em;
+            text-align: center;
+            font-family: "dots";
+        }
+        .first {
+            margin-left: 43px;
+        }
+    }
