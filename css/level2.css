@@ -570,32 +570,7 @@ p {
         padding-left: 2%;
         padding-right: 2%;
     }
-    .flex-footy {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        flex-flow: column;
-        -webkit-flex-flow: column;
-        justify-content: space-around;
-    }
-    .flex-footy-text {
-        padding: 0px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        color: #dc4615;
-        font-size: 2.5em;
-        text-align: center;
-        font-family: "dots";
-    }
-    hr.linee {
-        margin-bottom: 5px;
-    }
+  
 }
 
 
@@ -633,9 +608,7 @@ p {
     .logoIzq {
         display: none;
     }
-    img.logoIzq {
-        display: none;
-    }
+   
     div#izq {
         display: none;
     }
@@ -665,10 +638,8 @@ p {
         background-color: #000;
     }
  
-   
     .col-3 {
         margin-top: 16%;
-       
         text-align: center;
     }
     .col-9 {
