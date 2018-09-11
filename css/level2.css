@@ -618,7 +618,7 @@ p {
         max-height: 750px;
         margin-right: 0%;
         margin-left: 0%;
-        background-image: url("/img/bg/at_tablet.jpg");
+        background-image: url("../img/bg/at_tablet.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         overflow: auto;
