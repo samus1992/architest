@@ -41,6 +41,39 @@ body:before {
     font-family: monospace;
 }
 
+
+
+.container-fluid{
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);"
+}
+
+.bg_1{
+ background-image: url(../img/bg/at_1.JPG); 
+         background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+.bg_2{
+    background-image: url(../img/bg/at_2.JPG); 
+            background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.bg_1_tablet{
+ background-image: url(../img/bg/at_tablet.jpg); 
+         background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.bg_2_tablet{
+ background-image: url(../img/bg/at_2_tablet.jpg); 
+         background-size: cover;
+        background-repeat: no-repeat;
+}
+
 .textbox {
     /* max-height: 1400px; */
     text-align: justify;
@@ -689,11 +722,7 @@ p {
  
     .gallery-container {
         display: flex;
-        /* flex-wrap: wrap; */
         justify-content: space-between;
-        /* background-color: #fff; */
-        /* box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3); */
-        /* width: 80%; */
         margin: 0 auto;
         padding: 8px;
     }
@@ -846,47 +875,7 @@ p {
         text-indent: -115px;
         padding-bottom: 4%!important;
     }
-    .flex-footy {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        flex-flow: row;
-        -webkit-flex-flow: row;
-        justify-content: space-around;
-    }
-    .flex-footy-text {
-        padding: 0px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        color: black;
-        font-size: 3em;
-        text-align: center;
-        font-family: "dots";
-    }
-    .first {
-        margin-left: 73px;
-    }
-    .foots {
-        position: absolute!important;
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        bottom: -16%;
-        justify-content: space-between;
-        flex-direction: row;
-        font-family: "dots";
-        font-size: 3em;
-        color: white;
-    }
-    .textyfoot {
-        margin-left: 3%;
-    }
+  
 }
 
 
@@ -900,9 +889,7 @@ p {
     body {
         background-color: #000;
     }
-    #smally {
-        display: none!important;
-    }
+    
     .w-100 {
         display: none;
     }
@@ -1332,11 +1319,8 @@ p {
     }
   
     .container-fluid {
-        background-image: url('../img/bg/at_1.JPG')!important; 
-        background-size: cover;
-        background-repeat: no-repeat;
+      
         width: auto;
-
         height: 100%;
         padding-right: 0%;
     
