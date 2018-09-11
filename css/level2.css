@@ -49,30 +49,6 @@ body:before {
 box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);"
 }
 
-.bg_1{
- background-image: url(../img/bg/at_1.JPG); 
-         background-size: cover;
-        background-repeat: no-repeat;
-}
-
-
-.bg_2{
-    background-image: url(../img/bg/at_2.JPG); 
-            background-size: cover;
-        background-repeat: no-repeat;
-}
-
-.bg_1_tablet{
- background-image: url(../img/bg/at_tablet.jpg); 
-         background-size: cover;
-        background-repeat: no-repeat;
-}
-
-.bg_2_tablet{
- background-image: url(../img/bg/at_2_tablet.jpg); 
-         background-size: cover;
-        background-repeat: no-repeat;
-}
 
 .textbox {
     /* max-height: 1400px; */
@@ -1694,4 +1670,30 @@ p {
     }*/
   
    
+}
+
+
+.bg_1{
+ background-image: url(../img/bg/at_1.JPG); 
+         background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+.bg_2{
+    background-image: url(../img/bg/at_2.JPG); 
+            background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.bg_1_tablet{
+ background-image: url(../img/bg/at_tablet.jpg); 
+         background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.bg_2_tablet{
+ background-image: url(../img/bg/at_2_tablet.jpg); 
+         background-size: cover;
+        background-repeat: no-repeat;
 }
