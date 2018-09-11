@@ -618,7 +618,7 @@ p {
         max-height: 750px;
         margin-right: 0%;
         margin-left: 0%;
-        background-image: url("../img/bg/at_tablet.jpg");
+        background-image: url("/img/bg/at_tablet.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         overflow: auto;
@@ -1165,7 +1165,7 @@ p {
         padding: 8px;
     }
     .container-fluid {
-        background-image: url("../img/at_1.jpg")!important;
+        background-image: url("/img/bg/at_1.JPG")!important;
         background-size: cover;
         background-repeat: no-repeat;
         width: auto;
